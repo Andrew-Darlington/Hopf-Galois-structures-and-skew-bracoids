@@ -1,0 +1,11 @@
+[ car<IntegerRing(), Booleans(), PowerSequence(car<IntegerRing(), 
+    PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
+    PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+    RationalField(), RationalField(), IntegerRing(), IntegerRing()>)> |
+    <1, true, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
+        PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
+        IntegerRing(), RationalField(), RationalField(), RationalField(), 
+        IntegerRing(), IntegerRing()> |
+        <1, \[ 1 ], \[ 1 ], \[ 1 ], 1, 1, 1, 1, 1, 1>
+    ]>
+]

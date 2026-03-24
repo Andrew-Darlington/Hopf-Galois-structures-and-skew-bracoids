@@ -1,0 +1,45 @@
+================================================================================
+MAGMA LOG EXTRACTION REPORT
+================================================================================
+
+Group Order: 124
+
+INDIVIDUAL GROUP RESULTS:
+--------------------------------------------------------------------------------
+
+Group 124 #1
+  Results: [380, 136, 48, 72, 144, 10, 40]
+  Manager time:      0.05 seconds
+  Worker time:     142.58 seconds
+  Total time:      142.63 seconds
+
+Group 124 #2
+  Results: [218, 128, 20, 30, 48, 5, 20]
+  Manager time:      0.04 seconds
+  Worker time:       4.95 seconds
+  Total time:        4.99 seconds
+
+Group 124 #3
+  Results: [380, 136, 56, 128, 144, 10, 40]
+  Manager time:      0.06 seconds
+  Worker time:     140.35 seconds
+  Total time:      140.41 seconds
+
+Group 124 #4
+  Results: [158, 64, 44, 65, 68, 4, 44]
+  Manager time:      0.04 seconds
+  Worker time:       7.54 seconds
+  Total time:        7.58 seconds
+
+================================================================================
+TOTALS ACROSS ALL GROUPS:
+================================================================================
+
+Number of groups: 4
+
+Sum of results arrays: [1136, 464, 168, 295, 404, 29, 144]
+
+Total manager time:        0.19 seconds
+Total worker time:       295.42 seconds
+Grand total time:        295.61 seconds
+

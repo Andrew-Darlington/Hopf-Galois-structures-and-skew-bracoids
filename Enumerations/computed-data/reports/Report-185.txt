@@ -1,0 +1,27 @@
+================================================================================
+MAGMA LOG EXTRACTION REPORT
+================================================================================
+
+Group Order: 185
+
+INDIVIDUAL GROUP RESULTS:
+--------------------------------------------------------------------------------
+
+Group 185 #1
+  Results: [45, 1, 45, 45, 45, 1, 45]
+  Manager time:      0.04 seconds
+  Worker time:       8.67 seconds
+  Total time:        8.71 seconds
+
+================================================================================
+TOTALS ACROSS ALL GROUPS:
+================================================================================
+
+Number of groups: 1
+
+Sum of results arrays: [45, 1, 45, 45, 45, 1, 45]
+
+Total manager time:        0.04 seconds
+Total worker time:         8.67 seconds
+Grand total time:          8.71 seconds
+

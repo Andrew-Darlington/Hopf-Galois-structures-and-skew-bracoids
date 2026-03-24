@@ -1,0 +1,51 @@
+================================================================================
+MAGMA LOG EXTRACTION REPORT
+================================================================================
+
+Group Order: 171
+
+INDIVIDUAL GROUP RESULTS:
+--------------------------------------------------------------------------------
+
+Group 171 #1
+  Results: [1296, 360, 112, 558, 276, 30, 40]
+  Manager time:      0.10 seconds
+  Worker time:     202.51 seconds
+  Total time:      202.61 seconds
+
+Group 171 #2
+  Results: [282, 117, 62, 111, 86, 8, 50]
+  Manager time:      0.07 seconds
+  Worker time:      10.24 seconds
+  Total time:       10.31 seconds
+
+Group 171 #3
+  Results: [716, 432, 28, 237, 78, 18, 12]
+  Manager time:      0.05 seconds
+  Worker time:       9.14 seconds
+  Total time:        9.19 seconds
+
+Group 171 #4
+  Results: [2328, 852, 180, 598, 324, 18, 68]
+  Manager time:      0.15 seconds
+  Worker time:     418.39 seconds
+  Total time:      418.54 seconds
+
+Group 171 #5
+  Results: [631, 180, 197, 227, 230, 6, 167]
+  Manager time:      0.14 seconds
+  Worker time:      64.45 seconds
+  Total time:       64.59 seconds
+
+================================================================================
+TOTALS ACROSS ALL GROUPS:
+================================================================================
+
+Number of groups: 5
+
+Sum of results arrays: [5253, 1941, 579, 1731, 994, 80, 337]
+
+Total manager time:        0.51 seconds
+Total worker time:       704.73 seconds
+Grand total time:        705.24 seconds
+

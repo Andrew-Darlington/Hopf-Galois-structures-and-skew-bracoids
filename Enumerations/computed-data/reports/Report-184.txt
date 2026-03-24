@@ -1,0 +1,93 @@
+================================================================================
+MAGMA LOG EXTRACTION REPORT
+================================================================================
+
+Group Order: 184
+
+INDIVIDUAL GROUP RESULTS:
+--------------------------------------------------------------------------------
+
+Group 184 #1
+  Results: [1616, 596, 100, 216, 360, 28, 64]
+  Manager time:      0.17 seconds
+  Worker time:     892.06 seconds
+  Total time:      892.23 seconds
+
+Group 184 #2
+  Results: [912, 474, 42, 86, 120, 14, 32]
+  Manager time:      0.08 seconds
+  Worker time:      22.28 seconds
+  Total time:       22.36 seconds
+
+Group 184 #3
+  Results: [6640, 2736, 170, 668, 1134, 82, 108]
+  Manager time:      0.58 seconds
+  Worker time:    5284.59 seconds
+  Total time:     5285.17 seconds
+
+Group 184 #4
+  Results: [12224, 5456, 152, 666, 1242, 132, 64]
+  Manager time:      0.42 seconds
+  Worker time:    2843.01 seconds
+  Total time:     2843.43 seconds
+
+Group 184 #5
+  Results: [6640, 2736, 168, 751, 1134, 82, 108]
+  Manager time:      0.57 seconds
+  Worker time:    5415.11 seconds
+  Total time:     5415.68 seconds
+
+Group 184 #6
+  Results: [8576, 3504, 204, 626, 1236, 104, 108]
+  Manager time:      0.59 seconds
+  Worker time:    6576.36 seconds
+  Total time:     6576.95 seconds
+
+Group 184 #7
+  Results: [12224, 5456, 152, 785, 1242, 132, 64]
+  Manager time:      0.43 seconds
+  Worker time:    2930.41 seconds
+  Total time:     2930.84 seconds
+
+Group 184 #8
+  Results: [4280, 2280, 100, 280, 412, 52, 54]
+  Manager time:      0.25 seconds
+  Worker time:     140.85 seconds
+  Total time:      141.10 seconds
+
+Group 184 #9
+  Results: [3368, 1764, 86, 342, 378, 41, 54]
+  Manager time:      0.25 seconds
+  Worker time:     123.18 seconds
+  Total time:      123.43 seconds
+
+Group 184 #10
+  Results: [1560, 620, 86, 236, 284, 21, 66]
+  Manager time:      0.18 seconds
+  Worker time:     107.01 seconds
+  Total time:      107.19 seconds
+
+Group 184 #11
+  Results: [6928, 2532, 208, 782, 1242, 88, 132]
+  Manager time:      0.51 seconds
+  Worker time:   11210.00 seconds
+  Total time:    11210.51 seconds
+
+Group 184 #12
+  Results: [2080, 710, 100, 245, 336, 24, 80]
+  Manager time:      0.13 seconds
+  Worker time:     172.56 seconds
+  Total time:      172.69 seconds
+
+================================================================================
+TOTALS ACROSS ALL GROUPS:
+================================================================================
+
+Number of groups: 12
+
+Sum of results arrays: [67048, 28864, 1568, 5683, 9120, 800, 934]
+
+Total manager time:        4.16 seconds
+Total worker time:     35717.42 seconds
+Grand total time:      35721.58 seconds
+

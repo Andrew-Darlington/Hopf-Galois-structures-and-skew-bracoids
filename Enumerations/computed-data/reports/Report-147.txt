@@ -1,0 +1,57 @@
+================================================================================
+MAGMA LOG EXTRACTION REPORT
+================================================================================
+
+Group Order: 147
+
+INDIVIDUAL GROUP RESULTS:
+--------------------------------------------------------------------------------
+
+Group 147 #1
+  Results: [502, 128, 33, 206, 86, 8, 25]
+  Manager time:      0.05 seconds
+  Worker time:      51.01 seconds
+  Total time:       51.06 seconds
+
+Group 147 #2
+  Results: [102, 56, 32, 46, 26, 3, 20]
+  Manager time:      0.04 seconds
+  Worker time:       2.99 seconds
+  Total time:        3.03 seconds
+
+Group 147 #3
+  Results: [10644, 8036, 116, 326, 346, 24, 60]
+  Manager time:      0.05 seconds
+  Worker time:      55.24 seconds
+  Total time:       55.29 seconds
+
+Group 147 #4
+  Results: [14252, 7760, 316, 1779, 1416, 39, 236]
+  Manager time:      1.06 seconds
+  Worker time:    3146.29 seconds
+  Total time:     3147.35 seconds
+
+Group 147 #5
+  Results: [15982, 6932, 160, 504, 739, 43, 114]
+  Manager time:      0.32 seconds
+  Worker time:     795.66 seconds
+  Total time:      795.98 seconds
+
+Group 147 #6
+  Results: [1482, 742, 330, 396, 378, 6, 270]
+  Manager time:      0.22 seconds
+  Worker time:      87.14 seconds
+  Total time:       87.36 seconds
+
+================================================================================
+TOTALS ACROSS ALL GROUPS:
+================================================================================
+
+Number of groups: 6
+
+Sum of results arrays: [42964, 23654, 987, 3257, 2991, 123, 725]
+
+Total manager time:        1.74 seconds
+Total worker time:      4138.33 seconds
+Grand total time:       4140.07 seconds
+

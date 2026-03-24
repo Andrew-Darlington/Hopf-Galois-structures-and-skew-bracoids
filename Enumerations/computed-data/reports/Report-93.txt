@@ -1,0 +1,33 @@
+================================================================================
+MAGMA LOG EXTRACTION REPORT
+================================================================================
+
+Group Order: 93
+
+INDIVIDUAL GROUP RESULTS:
+--------------------------------------------------------------------------------
+
+Group 93 #1
+  Results: [192, 68, 24, 107, 48, 6, 16]
+  Manager time:      0.02 seconds
+  Worker time:       9.42 seconds
+  Total time:        9.44 seconds
+
+Group 93 #2
+  Results: [54, 32, 20, 23, 24, 2, 20]
+  Manager time:      0.03 seconds
+  Worker time:       3.08 seconds
+  Total time:        3.11 seconds
+
+================================================================================
+TOTALS ACROSS ALL GROUPS:
+================================================================================
+
+Number of groups: 2
+
+Sum of results arrays: [246, 100, 44, 130, 72, 8, 36]
+
+Total manager time:        0.05 seconds
+Total worker time:        12.50 seconds
+Grand total time:         12.55 seconds
+

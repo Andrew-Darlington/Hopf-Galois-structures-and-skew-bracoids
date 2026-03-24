@@ -1,0 +1,93 @@
+================================================================================
+MAGMA LOG EXTRACTION REPORT
+================================================================================
+
+Group Order: 152
+
+INDIVIDUAL GROUP RESULTS:
+--------------------------------------------------------------------------------
+
+Group 152 #1
+  Results: [1764, 500, 150, 324, 540, 28, 96]
+  Manager time:      0.22 seconds
+  Worker time:     729.16 seconds
+  Total time:      729.38 seconds
+
+Group 152 #2
+  Results: [888, 394, 63, 134, 180, 14, 48]
+  Manager time:      0.11 seconds
+  Worker time:      24.16 seconds
+  Total time:       24.27 seconds
+
+Group 152 #3
+  Results: [6900, 2288, 255, 1018, 1701, 82, 162]
+  Manager time:      0.79 seconds
+  Worker time:    3955.84 seconds
+  Total time:     3956.63 seconds
+
+Group 152 #4
+  Results: [12216, 4560, 228, 1036, 1863, 132, 96]
+  Manager time:      0.60 seconds
+  Worker time:    2153.65 seconds
+  Total time:     2154.25 seconds
+
+Group 152 #5
+  Results: [6900, 2288, 252, 1149, 1701, 82, 162]
+  Manager time:      0.78 seconds
+  Worker time:    4024.81 seconds
+  Total time:     4025.59 seconds
+
+Group 152 #6
+  Results: [8844, 2928, 306, 958, 1854, 104, 162]
+  Manager time:      0.82 seconds
+  Worker time:    4898.18 seconds
+  Total time:     4899.00 seconds
+
+Group 152 #7
+  Results: [12216, 4560, 228, 1223, 1863, 132, 96]
+  Manager time:      0.62 seconds
+  Worker time:    2122.12 seconds
+  Total time:     2122.74 seconds
+
+Group 152 #8
+  Results: [4140, 1896, 150, 440, 618, 52, 81]
+  Manager time:      0.34 seconds
+  Worker time:     136.35 seconds
+  Total time:      136.69 seconds
+
+Group 152 #9
+  Results: [3282, 1468, 129, 538, 567, 41, 81]
+  Manager time:      0.34 seconds
+  Worker time:     113.72 seconds
+  Total time:      114.06 seconds
+
+Group 152 #10
+  Results: [1588, 516, 141, 382, 450, 21, 107]
+  Manager time:      0.25 seconds
+  Worker time:     106.91 seconds
+  Total time:      107.16 seconds
+
+Group 152 #11
+  Results: [7312, 2116, 332, 1229, 1899, 88, 214]
+  Manager time:      0.55 seconds
+  Worker time:    7328.08 seconds
+  Total time:     7328.63 seconds
+
+Group 152 #12
+  Results: [2097, 590, 174, 418, 542, 24, 140]
+  Manager time:      0.23 seconds
+  Worker time:     170.02 seconds
+  Total time:      170.25 seconds
+
+================================================================================
+TOTALS ACROSS ALL GROUPS:
+================================================================================
+
+Number of groups: 12
+
+Sum of results arrays: [68147, 24104, 2408, 8849, 13778, 800, 1445]
+
+Total manager time:        5.65 seconds
+Total worker time:     25763.00 seconds
+Grand total time:      25768.65 seconds
+

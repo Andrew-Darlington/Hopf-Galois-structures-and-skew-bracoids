@@ -1,0 +1,156 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[a4paper, margin=2.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\lstset{
+    basicstyle=\ttfamily\small,
+    backgroundcolor=\color{gray!10},
+    frame=single,
+    breaklines=true
+}
+
+\title{\textbf{Constructing Hopf--Galois structures and skew bracoids of small degree}\\[0.5em]
+\large Enumeration algorithm --- guide to use}
+\author{Andrew Darlington \and E.A.\ O'Brien}
+\date{Last revised March 2026}
+
+\begin{document}
+
+\maketitle
+
+This directory contains material related to the enumeration algorithm described in the preprint:
+
+\begin{center}
+\textit{``Constructing Hopf--Galois structures and skew bracoids of small degree''}\\
+Authors: Andrew Darlington and E.A.\ O'Brien
+\end{center}
+
+\section*{1. Directory structure}
+
+\begin{itemize}[noitemsep]
+    \item \texttt{manager.m}, \texttt{worker.m}, and various shell scripts in the top-level directory.
+    \item \texttt{computed-data/} --- contains results from enumeration of orders 2--200, excluding 64, 96, 128, 144, 160, 162 and 192.
+    \item \texttt{results/} --- stores results from enumeration.
+    \item \texttt{logs/} --- stores \texttt{failed-groups.log} and \texttt{parent\_run.log}, and temporarily stores the manager and worker log files.
+    \item \texttt{reports/} --- contains summary reports from all results files mentioned above.
+\end{itemize}
+
+\section*{2. Setup and configuration}
+
+Our code assumes that you use the manager/worker environment provided by Magma; see the following online documentation:
+
+\begin{center}
+\url{https://magma.maths.usyd.edu.au/magma/handbook/text/70}
+\end{center}
+
+To use this, you need to edit \texttt{manager.m} and \texttt{worker.m}:
+
+\begin{itemize}[noitemsep]
+    \item \texttt{NumberOfWorkers} is set in \texttt{manager.m}.
+    \item The name of the machine and the port used is set in both \texttt{manager.m} and \texttt{worker.m}. Data stored in both must agree.
+\end{itemize}
+
+\section*{3. Running the main script (\texttt{parent})}
+
+The main bash shell script is \texttt{parent}. It runs the main function in \texttt{manager.m} on a range of groups.
+
+Edit \texttt{parent} as follows:
+
+\begin{itemize}[noitemsep]
+    \item Set \texttt{ORDERS} to the sequence of orders you wish to process.
+    \item Set \texttt{M\_VALUES} to the sequence of \texttt{NumberOfGroups(i)} for those orders \texttt{i} listed in \texttt{ORDERS}.
+\end{itemize}
+
+You can generate both sequences using \texttt{generate-arrays.m} and then paste them into \texttt{parent}. Run as follows:
+
+\begin{lstlisting}
+% ./parent
+\end{lstlisting}
+
+By default, it generates \texttt{Report-*.txt} for each \texttt{*} in the sequence \texttt{ORDERS}, stored in the \texttt{reports} directory. A complete record of the run is recorded in \texttt{logs/parent\_run.log}.
+
+\section*{4. Processing an individual order (\texttt{script})}
+
+To process an individual order, use \texttt{script}. Edit the following parameters:
+
+\begin{lstlisting}
+m=1
+M=14   # Run from m to M
+order=16  # Order parameter to pass to Magma
+\end{lstlisting}
+
+This processes groups \texttt{[m..M]} of the given order. You can also set \texttt{TIMEOUT} to a shorter or longer time. If a job runs out of time, it is reported in the file specified by \texttt{FAILURE\_LOG} in \texttt{script}. Run as follows:
+
+\begin{lstlisting}
+% ./script
+\end{lstlisting}
+
+\section*{5. Generating a summary for an individual order}
+
+To generate a summary for an individual order $n$ after running \texttt{./script}:
+
+\begin{lstlisting}
+python3 extract_magma_logs.py
+\end{lstlisting}
+
+This collects data from \texttt{logs/manager*.log} and generates \texttt{reports/Report-n.txt}, in the same format as the files currently in \texttt{reports/}.
+
+\section*{6. Processing results}
+
+The data for the groups of order $n$ is recorded in \texttt{results/Result-n}. This can be summarised by editing \texttt{process-results.m} to list the relevant values of $n$, then running:
+
+\begin{lstlisting}
+% magma process-results
+\end{lstlisting}
+
+This reports the total for each order $n$, where each report corresponds to a row in the enumeration table in the preprint.
+
+Note that \texttt{Report-n.txt} and \texttt{Results-n} are generated in the \texttt{reports} and \texttt{results} directories respectively.
+
+\section*{7. Running interactively}
+
+You can also run a job interactively to enumerate data for an individual group in Magma. Uncomment and edit these parameters in \texttt{manager.m} (retain the quotes):
+
+\begin{lstlisting}
+// order := "81";
+// nmr := "2";
+\end{lstlisting}
+
+Then run:
+
+\begin{lstlisting}
+% magma manager.m
+\end{lstlisting}
+
+This runs the enumeration algorithm for \texttt{SmallGroup(81, 2)}, reports the outcome, and then exits Magma.
+
+\section*{8. Utility shell scripts}
+
+The utility shell scripts require execute permission and perform the following tasks:
+
+\begin{itemize}[noitemsep]
+    \item \texttt{delete-jobs} --- deletes all Magma jobs which were started in the current directory.
+    \item \texttt{replace} \textit{old-string} \textit{new-string} --- replaces a string (e.g.\ machine name) in \texttt{manager*.m} and \texttt{worker*.m}.
+\end{itemize}
+
+\section*{9. Standard serial run}
+
+For a standard serial run (ignoring parallel option), we provide {\tt 
+serial-run.m}.
+
+Edit the values of {\tt order} and {\tt nmr} in that file 
+to process {\tt SmallGroup (order, nmr)}.
+
+\end{document}

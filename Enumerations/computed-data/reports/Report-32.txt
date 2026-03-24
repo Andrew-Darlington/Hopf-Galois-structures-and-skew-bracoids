@@ -1,0 +1,327 @@
+================================================================================
+MAGMA LOG EXTRACTION REPORT
+================================================================================
+
+Group Order: 32
+
+INDIVIDUAL GROUP RESULTS:
+--------------------------------------------------------------------------------
+
+Group 32 #1
+  Results: [174, 64, 23, 50, 37, 9, 11]
+  Manager time:      0.05 seconds
+  Worker time:       5.30 seconds
+  Total time:        5.35 seconds
+
+Group 32 #2
+  Results: [605912, 284992, 5855, 47804, 67785, 3129, 826]
+  Manager time:     35.78 seconds
+  Worker time:   35694.50 seconds
+  Total time:    35730.28 seconds
+
+Group 32 #3
+  Results: [89704, 27744, 1196, 6502, 12639, 1334, 319]
+  Manager time:      4.02 seconds
+  Worker time:    3273.57 seconds
+  Total time:     3277.59 seconds
+
+Group 32 #4
+  Results: [89544, 27440, 1204, 6750, 12642, 1335, 319]
+  Manager time:      3.99 seconds
+  Worker time:    3248.84 seconds
+  Total time:     3252.83 seconds
+
+Group 32 #5
+  Results: [115104, 39392, 1460, 8628, 16362, 1864, 331]
+  Manager time:      5.50 seconds
+  Worker time:    3324.86 seconds
+  Total time:     3330.36 seconds
+
+Group 32 #6
+  Results: [707192, 670400, 835, 1740, 3240, 708, 99]
+  Manager time:      0.99 seconds
+  Worker time:     588.23 seconds
+  Total time:      589.22 seconds
+
+Group 32 #7
+  Results: [88408, 38256, 892, 4196, 9644, 1209, 177]
+  Manager time:      1.54 seconds
+  Worker time:    2003.06 seconds
+  Total time:     2004.60 seconds
+
+Group 32 #8
+  Results: [80832, 31312, 925, 4272, 9640, 1205, 177]
+  Manager time:      1.56 seconds
+  Worker time:    1970.52 seconds
+  Total time:     1972.08 seconds
+
+Group 32 #9
+  Results: [307584, 79744, 2793, 30743, 68791, 4872, 681]
+  Manager time:     29.01 seconds
+  Worker time:   15807.00 seconds
+  Total time:    15836.01 seconds
+
+Group 32 #10
+  Results: [307584, 79744, 2793, 28624, 68791, 4872, 681]
+  Manager time:     28.41 seconds
+  Worker time:   15643.40 seconds
+  Total time:    15671.81 seconds
+
+Group 32 #11
+  Results: [101280, 56160, 759, 3019, 7087, 1424, 118]
+  Manager time:      2.48 seconds
+  Worker time:     867.85 seconds
+  Total time:      870.33 seconds
+
+Group 32 #12
+  Results: [110704, 37408, 1446, 8628, 16260, 1820, 331]
+  Manager time:      6.23 seconds
+  Worker time:    3435.75 seconds
+  Total time:     3441.98 seconds
+
+Group 32 #13
+  Results: [158368, 40096, 1749, 14442, 36214, 2492, 497]
+  Manager time:     14.82 seconds
+  Worker time:    9190.26 seconds
+  Total time:     9205.08 seconds
+
+Group 32 #14
+  Results: [158448, 40096, 1773, 15010, 36214, 2492, 497]
+  Manager time:     14.86 seconds
+  Worker time:    9701.73 seconds
+  Total time:     9716.59 seconds
+
+Group 32 #15
+  Results: [46312, 23712, 640, 2528, 4382, 676, 149]
+  Manager time:      1.83 seconds
+  Worker time:     745.93 seconds
+  Total time:      747.76 seconds
+
+Group 32 #16
+  Results: [4600, 1328, 251, 756, 816, 120, 82]
+  Manager time:      0.40 seconds
+  Worker time:     114.97 seconds
+  Total time:      115.37 seconds
+
+Group 32 #17
+  Results: [4600, 1328, 251, 764, 816, 120, 82]
+  Manager time:      0.42 seconds
+  Worker time:     107.66 seconds
+  Total time:      108.08 seconds
+
+Group 32 #18
+  Results: [5700, 1152, 190, 1305, 1233, 122, 77]
+  Manager time:      0.64 seconds
+  Worker time:     313.35 seconds
+  Total time:      313.99 seconds
+
+Group 32 #19
+  Results: [10640, 2288, 257, 1760, 1939, 224, 66]
+  Manager time:      0.82 seconds
+  Worker time:     314.96 seconds
+  Total time:      315.78 seconds
+
+Group 32 #20
+  Results: [5700, 1152, 190, 1216, 1233, 122, 77]
+  Manager time:      0.64 seconds
+  Worker time:     323.91 seconds
+  Total time:      324.55 seconds
+
+Group 32 #21
+  Results: [1741215, 641856, 9471, 121601, 309324, 13512, 1164]
+  Manager time:     24.61 seconds
+  Worker time:   102501.00 seconds
+  Total time:    102525.61 seconds
+
+Group 32 #22
+  Results: [5028336, 1897632, 25403, 382557, 881175, 38927, 2083]
+  Manager time:     85.92 seconds
+  Worker time:   283697.00 seconds
+  Total time:    283782.92 seconds
+
+Group 32 #23
+  Results: [5152808, 1891200, 29444, 400998, 938279, 39488, 3878]
+  Manager time:    399.04 seconds
+  Worker time:   338880.00 seconds
+  Total time:    339279.04 seconds
+
+Group 32 #24
+  Results: [8540256, 3443456, 32683, 540289, 1525589, 70400, 1760]
+  Manager time:    473.88 seconds
+  Worker time:   371658.00 seconds
+  Total time:    372131.88 seconds
+
+Group 32 #25
+  Results: [16792960, 6845952, 61508, 1097196, 2981341, 138336, 2272]
+  Manager time:   1168.02 seconds
+  Worker time:   714862.00 seconds
+  Total time:    716030.02 seconds
+
+Group 32 #26
+  Results: [5785408, 2287104, 23413, 378032, 1060795, 47400, 1427]
+  Manager time:    369.71 seconds
+  Worker time:   267140.00 seconds
+  Total time:    267509.71 seconds
+
+Group 32 #27
+  Results: [5621836, 2299520, 21264, 393386, 987366, 46582, 826]
+  Manager time:    306.66 seconds
+  Worker time:   247821.00 seconds
+  Total time:    248127.66 seconds
+
+Group 32 #28
+  Results: [16792960, 6845952, 61887, 1163602, 2981341, 138336, 2272]
+  Manager time:   1118.48 seconds
+  Worker time:   728123.00 seconds
+  Total time:    729241.48 seconds
+
+Group 32 #29
+  Results: [16792960, 6845952, 61659, 1054231, 2981341, 138336, 2272]
+  Manager time:   1125.61 seconds
+  Worker time:   710707.00 seconds
+  Total time:    711832.61 seconds
+
+Group 32 #30
+  Results: [16631232, 6858368, 58667, 1038385, 2908339, 137526, 1711]
+  Manager time:   1037.31 seconds
+  Worker time:   684699.00 seconds
+  Total time:    685736.31 seconds
+
+Group 32 #31
+  Results: [8607328, 3454896, 33176, 581159, 1540742, 70944, 1760]
+  Manager time:    462.86 seconds
+  Worker time:   394239.00 seconds
+  Total time:    394701.86 seconds
+
+Group 32 #32
+  Results: [8406048, 3423840, 30700, 497068, 1492774, 69236, 1254]
+  Manager time:    490.77 seconds
+  Worker time:   353249.00 seconds
+  Total time:    353739.77 seconds
+
+Group 32 #33
+  Results: [11011008, 4558848, 38038, 648638, 1922140, 91008, 1000]
+  Manager time:    516.53 seconds
+  Worker time:   442385.00 seconds
+  Total time:    442901.53 seconds
+
+Group 32 #34
+  Results: [1579074, 588648, 8762, 141527, 301837, 12866, 1533]
+  Manager time:     31.04 seconds
+  Worker time:   110494.00 seconds
+  Total time:    110525.04 seconds
+
+Group 32 #35
+  Results: [4491764, 1732200, 22411, 327408, 843307, 36562, 3019]
+  Manager time:    102.79 seconds
+  Worker time:   263479.00 seconds
+  Total time:    263581.79 seconds
+
+Group 32 #36
+  Results: [132572, 41728, 1768, 9486, 16111, 1547, 439]
+  Manager time:      2.81 seconds
+  Worker time:    4937.14 seconds
+  Total time:     4939.95 seconds
+
+Group 32 #37
+  Results: [240440, 95888, 2750, 14046, 21528, 2482, 509]
+  Manager time:      7.93 seconds
+  Worker time:    6209.18 seconds
+  Total time:     6217.11 seconds
+
+Group 32 #38
+  Results: [176048, 94720, 1252, 6680, 7316, 1540, 131]
+  Manager time:      1.77 seconds
+  Worker time:     990.99 seconds
+  Total time:      992.76 seconds
+
+Group 32 #39
+  Results: [310204, 90352, 3174, 40811, 52222, 3184, 933]
+  Manager time:     28.63 seconds
+  Worker time:   23817.80 seconds
+  Total time:    23846.43 seconds
+
+Group 32 #40
+  Results: [591584, 180032, 4622, 64810, 91087, 6136, 950]
+  Manager time:     77.34 seconds
+  Worker time:   35048.70 seconds
+  Total time:    35126.04 seconds
+
+Group 32 #41
+  Results: [310204, 90352, 3172, 38960, 52222, 3184, 933]
+  Manager time:     29.07 seconds
+  Worker time:   23331.60 seconds
+  Total time:    23360.67 seconds
+
+Group 32 #42
+  Results: [537408, 280000, 2595, 24539, 24921, 4992, 149]
+  Manager time:      9.52 seconds
+  Worker time:    3929.90 seconds
+  Total time:     3939.42 seconds
+
+Group 32 #43
+  Results: [604832, 295360, 3089, 27265, 32715, 5948, 214]
+  Manager time:     14.69 seconds
+  Worker time:    5740.11 seconds
+  Total time:     5754.80 seconds
+
+Group 32 #44
+  Results: [604832, 295360, 3091, 26230, 32715, 5948, 214]
+  Manager time:     14.36 seconds
+  Worker time:    5593.24 seconds
+  Total time:     5607.60 seconds
+
+Group 32 #45
+  Results: [1212009, 332800, 11767, 134122, 247411, 8015, 2318]
+  Manager time:     67.62 seconds
+  Worker time:   172287.00 seconds
+  Total time:    172354.62 seconds
+
+Group 32 #46
+  Results: [3050410, 1074688, 27486, 324398, 552500, 20995, 3539]
+  Manager time:     67.65 seconds
+  Worker time:   293441.00 seconds
+  Total time:    293508.65 seconds
+
+Group 32 #47
+  Results: [1169300, 363824, 13529, 138160, 236548, 7870, 2962]
+  Manager time:     79.92 seconds
+  Worker time:   159650.00 seconds
+  Total time:    159729.92 seconds
+
+Group 32 #48
+  Results: [4458798, 2057856, 47856, 379856, 593978, 27438, 1306]
+  Manager time:    257.33 seconds
+  Worker time:   178952.00 seconds
+  Total time:    179209.33 seconds
+
+Group 32 #49
+  Results: [949364, 669776, 22423, 76066, 11485, 1931, 221]
+  Manager time:      4.45 seconds
+  Worker time:    4620.91 seconds
+  Total time:     4625.36 seconds
+
+Group 32 #50
+  Results: [591380, 403024, 13824, 50955, 10414, 1499, 197]
+  Manager time:      5.11 seconds
+  Worker time:    2715.44 seconds
+  Total time:     2720.55 seconds
+
+Group 32 #51
+  Results: [143447, 17712, 3209, 26860, 42788, 744, 1411]
+  Manager time:     42.46 seconds
+  Worker time:   64157.90 seconds
+  Total time:    64200.36 seconds
+
+================================================================================
+TOTALS ACROSS ALL GROUPS:
+================================================================================
+
+Number of groups: 51
+
+Sum of results arrays: [151056415, 61482704, 709575, 10338058, 26057416, 1223061, 50254]
+
+Total manager time:     8577.88 seconds
+Total worker time:   7106032.56 seconds
+Grand total time:    7114610.44 seconds
+

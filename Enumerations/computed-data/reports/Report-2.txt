@@ -1,0 +1,27 @@
+================================================================================
+MAGMA LOG EXTRACTION REPORT
+================================================================================
+
+Group Order: 2
+
+INDIVIDUAL GROUP RESULTS:
+--------------------------------------------------------------------------------
+
+Group 2 #1
+  Results: [1, 1, 1, 1, 1, 1, 1]
+  Manager time:      0.02 seconds
+  Worker time:       0.15 seconds
+  Total time:        0.17 seconds
+
+================================================================================
+TOTALS ACROSS ALL GROUPS:
+================================================================================
+
+Number of groups: 1
+
+Sum of results arrays: [1, 1, 1, 1, 1, 1, 1]
+
+Total manager time:        0.02 seconds
+Total worker time:         0.15 seconds
+Grand total time:          0.17 seconds
+

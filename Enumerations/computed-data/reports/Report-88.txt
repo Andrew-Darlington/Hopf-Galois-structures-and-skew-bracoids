@@ -1,0 +1,93 @@
+================================================================================
+MAGMA LOG EXTRACTION REPORT
+================================================================================
+
+Group Order: 88
+
+INDIVIDUAL GROUP RESULTS:
+--------------------------------------------------------------------------------
+
+Group 88 #1
+  Results: [1088, 308, 100, 216, 360, 28, 64]
+  Manager time:      0.10 seconds
+  Worker time:     149.48 seconds
+  Total time:      149.58 seconds
+
+Group 88 #2
+  Results: [528, 234, 42, 86, 120, 14, 32]
+  Manager time:      0.06 seconds
+  Worker time:      16.46 seconds
+  Total time:       16.52 seconds
+
+Group 88 #3
+  Results: [4192, 1392, 170, 668, 1134, 82, 108]
+  Manager time:      0.30 seconds
+  Worker time:     631.44 seconds
+  Total time:      631.74 seconds
+
+Group 88 #4
+  Results: [7328, 2768, 152, 666, 1242, 132, 64]
+  Manager time:      0.19 seconds
+  Worker time:     448.05 seconds
+  Total time:      448.24 seconds
+
+Group 88 #5
+  Results: [4192, 1392, 168, 751, 1134, 82, 108]
+  Manager time:      0.28 seconds
+  Worker time:     644.41 seconds
+  Total time:      644.69 seconds
+
+Group 88 #6
+  Results: [5360, 1776, 204, 626, 1236, 104, 108]
+  Manager time:      0.28 seconds
+  Worker time:     666.61 seconds
+  Total time:      666.89 seconds
+
+Group 88 #7
+  Results: [7328, 2768, 152, 785, 1242, 132, 64]
+  Manager time:      0.19 seconds
+  Worker time:     434.19 seconds
+  Total time:      434.38 seconds
+
+Group 88 #8
+  Results: [2456, 1128, 100, 280, 412, 52, 54]
+  Manager time:      0.19 seconds
+  Worker time:      68.11 seconds
+  Total time:       68.30 seconds
+
+Group 88 #9
+  Results: [1952, 876, 86, 342, 378, 41, 54]
+  Manager time:      0.20 seconds
+  Worker time:      57.99 seconds
+  Total time:       58.19 seconds
+
+Group 88 #10
+  Results: [936, 308, 86, 236, 284, 21, 66]
+  Manager time:      0.16 seconds
+  Worker time:      52.99 seconds
+  Total time:       53.15 seconds
+
+Group 88 #11
+  Results: [4432, 1284, 208, 782, 1242, 88, 132]
+  Manager time:      0.20 seconds
+  Worker time:     764.21 seconds
+  Total time:      764.41 seconds
+
+Group 88 #12
+  Results: [1228, 350, 100, 245, 336, 24, 80]
+  Manager time:      0.10 seconds
+  Worker time:      71.40 seconds
+  Total time:       71.50 seconds
+
+================================================================================
+TOTALS ACROSS ALL GROUPS:
+================================================================================
+
+Number of groups: 12
+
+Sum of results arrays: [41020, 14584, 1568, 5683, 9120, 800, 934]
+
+Total manager time:        2.25 seconds
+Total worker time:      4005.34 seconds
+Grand total time:       4007.59 seconds
+

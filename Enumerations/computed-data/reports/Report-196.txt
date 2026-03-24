@@ -1,0 +1,93 @@
+================================================================================
+MAGMA LOG EXTRACTION REPORT
+================================================================================
+
+Group Order: 196
+
+INDIVIDUAL GROUP RESULTS:
+--------------------------------------------------------------------------------
+
+Group 196 #1
+  Results: [926, 256, 70, 156, 258, 14, 62]
+  Manager time:      0.14 seconds
+  Worker time:    2409.06 seconds
+  Total time:     2409.20 seconds
+
+Group 196 #2
+  Results: [398, 224, 32, 52, 51, 7, 20]
+  Manager time:      0.06 seconds
+  Worker time:       9.37 seconds
+  Total time:        9.43 seconds
+
+Group 196 #3
+  Results: [926, 256, 78, 272, 258, 14, 62]
+  Manager time:      0.14 seconds
+  Worker time:    2496.41 seconds
+  Total time:     2496.55 seconds
+
+Group 196 #4
+  Results: [290, 112, 68, 122, 73, 6, 44]
+  Manager time:      0.07 seconds
+  Worker time:      14.51 seconds
+  Total time:       14.58 seconds
+
+Group 196 #5
+  Results: [22336, 14868, 302, 588, 1128, 38, 192]
+  Manager time:      0.21 seconds
+  Worker time:    1283.28 seconds
+  Total time:     1283.49 seconds
+
+Group 196 #6
+  Results: [39028, 13416, 985, 2998, 5701, 86, 752]
+  Manager time:     17.68 seconds
+  Worker time:   59230.20 seconds
+  Total time:    59247.88 seconds
+
+Group 196 #7
+  Results: [3033, 784, 330, 686, 1073, 16, 270]
+  Manager time:      0.95 seconds
+  Worker time:     695.42 seconds
+  Total time:      696.37 seconds
+
+Group 196 #8
+  Results: [6656, 4804, 100, 284, 412, 16, 62]
+  Manager time:      0.40 seconds
+  Worker time:    1799.25 seconds
+  Total time:     1799.65 seconds
+
+Group 196 #9
+  Results: [28964, 18820, 227, 685, 1091, 56, 114]
+  Manager time:      0.50 seconds
+  Worker time:    3621.32 seconds
+  Total time:     3621.82 seconds
+
+Group 196 #10
+  Results: [22336, 14868, 334, 940, 1128, 38, 192]
+  Manager time:      0.22 seconds
+  Worker time:    1321.98 seconds
+  Total time:     1322.20 seconds
+
+Group 196 #11
+  Results: [39028, 13416, 1091, 4659, 5701, 86, 752]
+  Manager time:     17.69 seconds
+  Worker time:   72434.90 seconds
+  Total time:    72452.59 seconds
+
+Group 196 #12
+  Results: [2556, 392, 768, 1321, 1318, 12, 636]
+  Manager time:      1.66 seconds
+  Worker time:    1006.74 seconds
+  Total time:     1008.40 seconds
+
+================================================================================
+TOTALS ACROSS ALL GROUPS:
+================================================================================
+
+Number of groups: 12
+
+Sum of results arrays: [166477, 82216, 4385, 12763, 18192, 389, 3158]
+
+Total manager time:       39.72 seconds
+Total worker time:    146322.44 seconds
+Grand total time:     146362.16 seconds
+

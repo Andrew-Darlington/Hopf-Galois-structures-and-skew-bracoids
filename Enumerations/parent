@@ -1,0 +1,109 @@
+#!/bin/bash
+# Parent script to run the Magma batch runner for multiple orders
+set -e
+
+# Configuration
+BATCH_SCRIPT="./script"  # Path to your existing batch script
+PARENT_LOG="logs/parent_run.log"    # Log file for this parent script
+
+# Define the orders you want to process and corresponding M values
+#ORDERS=(6 7 8)
+#M_VALUES=(2 1 5)  # Corresponding M value for each order
+
+#current
+ORDERS=(2 3 4 5 6 7 8 9 10 11 12 13 14 15)
+M_VALUES=(1 1 2 1 2 1 5 2 2 1 5 1 2 1)
+
+# Verify arrays have same length
+if [ ${#ORDERS[@]} -ne ${#M_VALUES[@]} ]; then
+    echo "ERROR: ORDERS and M_VALUES arrays must have the same length"
+    exit 1
+fi
+
+# Start logging - redirect all output to both console and log file
+exec > >(tee -a "$PARENT_LOG") 2>&1
+
+echo "========================================="
+echo "Parent Batch Runner"
+echo "Started: $(date)"
+echo "========================================="
+echo "Will process ${#ORDERS[@]} different orders:"
+for i in "${!ORDERS[@]}"; do
+    echo "  Order ${ORDERS[$i]} with M=${M_VALUES[$i]}"
+done
+echo "Using batch script: $BATCH_SCRIPT"
+echo "Logging to: $PARENT_LOG"
+echo "========================================="
+echo ""
+
+# Check if batch script exists
+if [ ! -f "$BATCH_SCRIPT" ]; then
+    echo "ERROR: Batch script not found at $BATCH_SCRIPT"
+    exit 1
+fi
+
+# Make sure batch script is executable
+chmod +x "$BATCH_SCRIPT"
+
+# Loop through each order with its corresponding M value
+for i in "${!ORDERS[@]}"; do
+    order="${ORDERS[$i]}"
+    M="${M_VALUES[$i]}"
+    
+    echo ""
+    echo "========================================="
+    echo "PROCESSING ORDER $order (M=$M)"
+    echo "========================================="
+    echo ""
+    
+    # Modify the batch script to use this order and M value
+    # Create a temporary modified version
+    TEMP_SCRIPT=$(mktemp)
+    sed -e "s/^order=.*/order=$order/" \
+        -e "s/^M=.*/M=$M/" \
+        "$BATCH_SCRIPT" > "$TEMP_SCRIPT"
+    
+    # Run the modified batch script with bash
+    bash "$TEMP_SCRIPT"
+    
+    # Clean up temp script
+    rm "$TEMP_SCRIPT"
+    
+    echo ""
+    echo "Completed order $order (M=$M)"
+    echo ""
+    
+    # Run the Python extraction script for this order
+    echo "Extracting summary for order $order..."
+    python3 extract_magma_logs.py
+    echo "Summary extraction complete"
+    echo ""
+    
+    # Clean up log files for this order
+    echo "Cleaning up log files for order $order..."
+    rm -f logs/manager*.log logs/worker*.log
+    echo "Log files deleted"
+    echo ""
+done
+
+echo "========================================="
+echo "ALL ORDERS COMPLETE"
+echo "Finished: $(date)"
+echo "========================================="
+echo "Processed orders: ${ORDERS[*]}"
+echo ""
+
+# Optional: Collect all failure logs
+echo "Collecting failure logs..."
+if ls logs/failed_groups.log.* 2>/dev/null || [ -f logs/failed_groups.log ]; then
+    echo ""
+    echo "Summary of failures across all orders:"
+    for log in logs/failed_groups.log*; do
+        if [ -f "$log" ] && [ -s "$log" ]; then
+            echo "--- From $log ---"
+            cat "$log"
+        fi
+    done
+else
+    echo "No failures detected!"
+fi

@@ -1,0 +1,464 @@
+Timing data for n = 2
+CPU time for manager is 1.18 seconds
+CPU time across all workers is 0.83 seconds
+Total time is 2.01 seconds
+
+Timing data for n = 3
+CPU time for manager is 1.18 seconds
+CPU time across all workers is 1 seconds
+Total time is 2.18 seconds
+
+Timing data for n = 4
+CPU time for manager is 1.18 seconds
+CPU time across all workers is 1.96 seconds
+Total time is 3.14 seconds
+
+Timing data for n = 5
+CPU time for manager is 1.17 seconds
+CPU time across all workers is 1.12 seconds
+Total time is 2.29 seconds
+
+Timing data for n = 6
+CPU time for manager is 1.19 seconds
+CPU time across all workers is 2.09 seconds
+Total time is 3.28 seconds
+
+Timing data for n = 7
+CPU time for manager is 1.18 seconds
+CPU time across all workers is 1.12 seconds
+Total time is 2.30 seconds
+
+Timing data for n = 8
+CPU time for manager is 1.24 seconds
+CPU time across all workers is 10.73 seconds
+Total time is 11.97 seconds
+
+Timing data for n = 9
+CPU time for manager is 1.20 seconds
+CPU time across all workers is 3.95 seconds
+Total time is 5.15 seconds
+
+Timing data for n = 10
+CPU time for manager is 1.16 seconds
+CPU time across all workers is 2.97 seconds
+Total time is 4.13 seconds
+
+Timing data for n = 11
+CPU time for manager is 1.18 seconds
+CPU time across all workers is 1.18 seconds
+Total time is 2.36 seconds
+
+Timing data for n = 12
+CPU time for manager is 1.26 seconds
+CPU time across all workers is 10.07 seconds
+Total time is 11.33 seconds
+
+Timing data for n = 13
+CPU time for manager is 1.20 seconds
+CPU time across all workers is 1.42 seconds
+Total time is 2.62 seconds
+
+Timing data for n = 14
+CPU time for manager is 1.19 seconds
+CPU time across all workers is 3.03 seconds
+Total time is 4.22 seconds
+
+Timing data for n = 15
+CPU time for manager is 1.20 seconds
+CPU time across all workers is 2.03 seconds
+Total time is 3.23 seconds
+
+Timing data for n = 16
+CPU time for manager is 10.93 seconds
+CPU time across all workers is 877.92 seconds
+Total time is 888.85 seconds
+
+Timing data for n = 17
+CPU time for manager is 1.21 seconds
+CPU time across all workers is 1.03 seconds
+Total time is 2.24 seconds
+
+Timing data for n = 18
+CPU time for manager is 1.31 seconds
+CPU time across all workers is 26.84 seconds
+Total time is 28.15 seconds
+
+Timing data for n = 19
+CPU time for manager is 1.18 seconds
+CPU time across all workers is 1.32 seconds
+Total time is 2.50 seconds
+
+Timing data for n = 20
+CPU time for manager is 1.33 seconds
+CPU time across all workers is 16.54 seconds
+Total time is 17.87 seconds
+
+Timing data for n = 21
+CPU time for manager is 1.23 seconds
+CPU time across all workers is 4.42 seconds
+Total time is 5.65 seconds
+
+Timing data for n = 22
+CPU time for manager is 1.24 seconds
+CPU time across all workers is 3.43 seconds
+Total time is 4.67 seconds
+
+Timing data for n = 23
+CPU time for manager is 1.17 seconds
+CPU time across all workers is 1.02 seconds
+Total time is 2.19 seconds
+
+Timing data for n = 24
+CPU time for manager is 4.49 seconds
+CPU time across all workers is 631.04 seconds
+Total time is 635.53 seconds
+
+Timing data for n = 25
+CPU time for manager is 1.26 seconds
+CPU time across all workers is 8.32 seconds
+Total time is 9.58 seconds
+
+Timing data for n = 26
+CPU time for manager is 1.26 seconds
+CPU time across all workers is 5.22 seconds
+Total time is 6.48 seconds
+
+Timing data for n = 27
+CPU time for manager is 1.82 seconds
+CPU time across all workers is 75.62 seconds
+Total time is 77.44 seconds
+
+Timing data for n = 28
+CPU time for manager is 1.36 seconds
+CPU time across all workers is 17.41 seconds
+Total time is 18.77 seconds
+
+Timing data for n = 29
+CPU time for manager is 1.21 seconds
+CPU time across all workers is 1.41 seconds
+Total time is 2.62 seconds
+
+Timing data for n = 30
+CPU time for manager is 1.38 seconds
+CPU time across all workers is 26.39 seconds
+Total time is 27.77 seconds
+
+Timing data for n = 31
+CPU time for manager is 1.21 seconds
+CPU time across all workers is 1.49 seconds
+Total time is 2.70 seconds
+
+Timing data for n = 33
+CPU time for manager is 1.20 seconds
+CPU time across all workers is 1.89 seconds
+Total time is 3.09 seconds
+
+Timing data for n = 34
+CPU time for manager is 1.27 seconds
+CPU time across all workers is 5.65 seconds
+Total time is 6.92 seconds
+
+Timing data for n = 35
+CPU time for manager is 1.22 seconds
+CPU time across all workers is 2.63 seconds
+Total time is 3.85 seconds
+
+Timing data for n = 36
+CPU time for manager is 6.18 seconds
+CPU time across all workers is 564.47 seconds
+Total time is 570.65 seconds
+
+Timing data for n = 37
+CPU time for manager is 1.19 seconds
+CPU time across all workers is 1.66 seconds
+Total time is 2.85 seconds
+
+Timing data for n = 38
+CPU time for manager is 1.25 seconds
+CPU time across all workers is 6.04 seconds
+Total time is 7.29 seconds
+
+Timing data for n = 39
+CPU time for manager is 1.26 seconds
+CPU time across all workers is 6.55 seconds
+Total time is 7.81 seconds
+
+Timing data for n = 40
+CPU time for manager is 12.79 seconds
+CPU time across all workers is 1666.35 seconds
+Total time is 1679.14 seconds
+
+Timing data for n = 41
+CPU time for manager is 1.20 seconds
+CPU time across all workers is 1.74 seconds
+Total time is 2.94 seconds
+
+Timing data for n = 42
+CPU time for manager is 1.59 seconds
+CPU time across all workers is 39.32 seconds
+Total time is 40.91 seconds
+
+Timing data for n = 43
+CPU time for manager is 1.20 seconds
+CPU time across all workers is 1.68 seconds
+Total time is 2.88 seconds
+
+Timing data for n = 44
+CPU time for manager is 1.43 seconds
+CPU time across all workers is 24.24 seconds
+Total time is 25.67 seconds
+
+Timing data for n = 45
+CPU time for manager is 1.30 seconds
+CPU time across all workers is 15.24 seconds
+Total time is 16.54 seconds
+
+Timing data for n = 46
+CPU time for manager is 1.25 seconds
+CPU time across all workers is 4.79 seconds
+Total time is 6.04 seconds
+
+Timing data for n = 47
+CPU time for manager is 1.18 seconds
+CPU time across all workers is 1.27 seconds
+Total time is 2.45 seconds
+
+Timing data for n = 49
+CPU time for manager is 1.33 seconds
+CPU time across all workers is 12.94 seconds
+Total time is 14.27 seconds
+
+Timing data for n = 50
+CPU time for manager is 4.73 seconds
+CPU time across all workers is 268.29 seconds
+Total time is 273.02 seconds
+
+Timing data for n = 51
+CPU time for manager is 1.22 seconds
+CPU time across all workers is 3.12 seconds
+Total time is 4.34 seconds
+
+Timing data for n = 52
+CPU time for manager is 1.84 seconds
+CPU time across all workers is 61.36 seconds
+Total time is 63.20 seconds
+
+Timing data for n = 53
+CPU time for manager is 1.21 seconds
+CPU time across all workers is 1.93 seconds
+Total time is 3.14 seconds
+
+Timing data for n = 54
+CPU time for manager is 99.80 seconds
+CPU time across all workers is 8892.63 seconds
+Total time is 8992.43 seconds
+
+Timing data for n = 55
+CPU time for manager is 1.27 seconds
+CPU time across all workers is 6.08 seconds
+Total time is 7.35 seconds
+
+Timing data for n = 56
+CPU time for manager is 17.95 seconds
+CPU time across all workers is 2185.50 seconds
+Total time is 2203.45 seconds
+
+Timing data for n = 57
+CPU time for manager is 1.31 seconds
+CPU time across all workers is 8.62 seconds
+Total time is 9.93 seconds
+
+Timing data for n = 58
+CPU time for manager is 1.33 seconds
+CPU time across all workers is 9.46 seconds
+Total time is 10.79 seconds
+
+Timing data for n = 59
+CPU time for manager is 1.19 seconds
+CPU time across all workers is 1.49 seconds
+Total time is 2.68 seconds
+
+Timing data for n = 60
+CPU time for manager is 8.51 seconds
+CPU time across all workers is 813.90 seconds
+Total time is 822.41 seconds
+
+Timing data for n = 61
+CPU time for manager is 1.22 seconds
+CPU time across all workers is 2.23 seconds
+Total time is 3.45 seconds
+
+Timing data for n = 62
+CPU time for manager is 1.36 seconds
+CPU time across all workers is 11.41 seconds
+Total time is 12.77 seconds
+
+Timing data for n = 63
+CPU time for manager is 1.93 seconds
+CPU time across all workers is 64.70 seconds
+Total time is 66.64 seconds
+
+Timing data for n = 65
+CPU time for manager is 1.25 seconds
+CPU time across all workers is 4.70 seconds
+Total time is 5.95 seconds
+
+Timing data for n = 66
+CPU time for manager is 1.83 seconds
+CPU time across all workers is 47.40 seconds
+Total time is 49.23 seconds
+
+Timing data for n = 67
+CPU time for manager is 1.21 seconds
+CPU time across all workers is 1.92 seconds
+Total time is 3.13 seconds
+
+Timing data for n = 68
+CPU time for manager is 2.41 seconds
+CPU time across all workers is 99.10 seconds
+Total time is 101.51 seconds
+
+Timing data for n = 69
+CPU time for manager is 1.20 seconds
+CPU time across all workers is 1.86 seconds
+Total time is 3.06 seconds
+
+Timing data for n = 70
+CPU time for manager is 2.71 seconds
+CPU time across all workers is 112.60 seconds
+Total time is 115.31 seconds
+
+Timing data for n = 71
+CPU time for manager is 1.19 seconds
+CPU time across all workers is 1.95 seconds
+Total time is 3.14 seconds
+
+Timing data for n = 72
+CPU time for manager is 1919.15 seconds
+CPU time across all workers is 1470800.00 seconds
+Total time is 1472719.15 seconds
+
+Timing data for n = 73
+CPU time for manager is 0.85 seconds
+CPU time across all workers is 1.14 seconds
+Total time is 1.99 seconds
+
+Timing data for n = 74
+CPU time for manager is 1.00 seconds
+CPU time across all workers is 11.54 seconds
+Total time is 12.54 seconds
+
+Timing data for n = 75
+CPU time for manager is 2.84 seconds
+CPU time across all workers is 97.47 seconds
+Total time is 100.31 seconds
+
+Timing data for n = 76
+CPU time for manager is 1.48 seconds
+CPU time across all workers is 45.15 seconds
+Total time is 46.63 seconds
+
+Timing data for n = 77
+CPU time for manager is 0.83 seconds
+CPU time across all workers is 1.63 seconds
+Total time is 2.46 seconds
+
+Timing data for n = 78
+CPU time for manager is 2.40 seconds
+CPU time across all workers is 102.28 seconds
+Total time is 104.68 seconds
+
+Timing data for n = 79
+CPU time for manager is 0.83 seconds
+CPU time across all workers is 0.63 seconds
+Total time is 1.46 seconds
+
+Timing data for n = 82
+CPU time for manager is 1.09 seconds
+CPU time across all workers is 77.77 seconds
+Total time is 78.86 seconds
+
+Timing data for n = 83
+CPU time for manager is 0.81 seconds
+CPU time across all workers is 0.40 seconds
+Total time is 1.21 seconds
+
+Timing data for n = 84
+CPU time for manager is 17.03 seconds
+CPU time across all workers is 1064.41 seconds
+Total time is 1081.44 seconds
+
+Timing data for n = 85
+CPU time for manager is 0.85 seconds
+CPU time across all workers is 2.89 seconds
+Total time is 3.74 seconds
+
+Timing data for n = 86
+CPU time for manager is 1.04 seconds
+CPU time across all workers is 12.52 seconds
+Total time is 13.56 seconds
+
+Timing data for n = 87
+CPU time for manager is 0.85 seconds
+CPU time across all workers is 1.51 seconds
+Total time is 2.36 seconds
+
+Timing data for n = 88
+CPU time for manager is 34.28 seconds
+CPU time across all workers is 2885.06 seconds
+Total time is 2919.34 seconds
+
+Timing data for n = 89
+CPU time for manager is 0.82 seconds
+CPU time across all workers is 0.82 seconds
+Total time is 1.64 seconds
+
+Timing data for n = 90
+CPU time for manager is 41.62 seconds
+CPU time across all workers is 3461.40 seconds
+Total time is 3503.02 seconds
+
+Timing data for n = 91
+CPU time for manager is 0.88 seconds
+CPU time across all workers is 4.57 seconds
+Total time is 5.45 seconds
+
+Timing data for n = 92
+CPU time for manager is 1.41 seconds
+CPU time across all workers is 48.07 seconds
+Total time is 49.48 seconds
+
+Timing data for n = 93
+CPU time for manager is 1.01 seconds
+CPU time across all workers is 10 seconds
+Total time is 11.01 seconds
+
+Timing data for n = 94
+CPU time for manager is 0.94 seconds
+CPU time across all workers is 6.54 seconds
+Total time is 7.48 seconds
+
+Timing data for n = 95
+CPU time for manager is 0.84 seconds
+CPU time across all workers is 2.17 seconds
+Total time is 3.01 seconds
+
+Timing data for n = 97
+CPU time for manager is 0.81 seconds
+CPU time across all workers is 1.05 seconds
+Total time is 1.86 seconds
+
+Timing data for n = 98
+CPU time for manager is 30.38 seconds
+CPU time across all workers is 1630.94 seconds
+Total time is 1661.32 seconds
+
+Timing data for n = 99
+CPU time for manager is 1.04 seconds
+CPU time across all workers is 15.44 seconds
+Total time is 16.48 seconds
+
+Timing data for n = 100
+CPU time for manager is 144.06 seconds
+CPU time across all workers is 10172.10 seconds
+Total time is 10316.16 seconds

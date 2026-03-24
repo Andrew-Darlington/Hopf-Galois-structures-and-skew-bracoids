@@ -1,0 +1,99 @@
+================================================================================
+MAGMA LOG EXTRACTION REPORT
+================================================================================
+
+Group Order: 189
+
+INDIVIDUAL GROUP RESULTS:
+--------------------------------------------------------------------------------
+
+Group 189 #1
+  Results: [1620, 180, 124, 975, 312, 30, 40]
+  Manager time:      0.12 seconds
+  Worker time:      71.54 seconds
+  Total time:       71.66 seconds
+
+Group 189 #2
+  Results: [342, 72, 74, 195, 92, 8, 50]
+  Manager time:      0.10 seconds
+  Worker time:      12.15 seconds
+  Total time:       12.25 seconds
+
+Group 189 #3
+  Results: [54396, 11016, 1048, 8687, 6756, 756, 152]
+  Manager time:      1.74 seconds
+  Worker time:    1862.38 seconds
+  Total time:     1864.12 seconds
+
+Group 189 #4
+  Results: [54396, 11016, 1048, 8687, 6756, 756, 152]
+  Manager time:      1.77 seconds
+  Worker time:    1853.61 seconds
+  Total time:     1855.38 seconds
+
+Group 189 #5
+  Results: [54396, 11016, 1048, 8687, 6756, 756, 152]
+  Manager time:      1.75 seconds
+  Worker time:    1890.30 seconds
+  Total time:     1892.05 seconds
+
+Group 189 #6
+  Results: [75678, 25620, 1694, 9711, 6042, 382, 368]
+  Manager time:      1.70 seconds
+  Worker time:    6539.47 seconds
+  Total time:     6541.17 seconds
+
+Group 189 #7
+  Results: [140520, 51240, 1692, 13008, 8292, 710, 224]
+  Manager time:      2.22 seconds
+  Worker time:    7456.73 seconds
+  Total time:     7458.95 seconds
+
+Group 189 #8
+  Results: [271584, 122064, 2434, 9718, 6030, 472, 272]
+  Manager time:      1.68 seconds
+  Worker time:    9238.64 seconds
+  Total time:     9240.32 seconds
+
+Group 189 #9
+  Results: [17167, 6819, 984, 2373, 1991, 116, 572]
+  Manager time:      0.65 seconds
+  Worker time:     752.54 seconds
+  Total time:      753.19 seconds
+
+Group 189 #10
+  Results: [32270, 13596, 1309, 2176, 2083, 97, 343]
+  Manager time:      1.48 seconds
+  Worker time:    1801.06 seconds
+  Total time:     1802.54 seconds
+
+Group 189 #11
+  Results: [31716, 13638, 702, 2908, 2518, 218, 184]
+  Manager time:      0.55 seconds
+  Worker time:     756.20 seconds
+  Total time:      756.75 seconds
+
+Group 189 #12
+  Results: [115110, 46992, 2474, 8382, 5325, 218, 686]
+  Manager time:      1.33 seconds
+  Worker time:   14601.10 seconds
+  Total time:    14602.43 seconds
+
+Group 189 #13
+  Results: [12856, 3342, 2253, 2894, 2702, 41, 1389]
+  Manager time:      3.11 seconds
+  Worker time:    3722.43 seconds
+  Total time:     3725.54 seconds
+
+================================================================================
+TOTALS ACROSS ALL GROUPS:
+================================================================================
+
+Number of groups: 13
+
+Sum of results arrays: [862051, 316611, 16884, 78401, 55655, 4560, 4584]
+
+Total manager time:       18.20 seconds
+Total worker time:     50558.15 seconds
+Grand total time:      50576.35 seconds
+

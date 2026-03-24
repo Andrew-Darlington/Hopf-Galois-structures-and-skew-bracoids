@@ -1,0 +1,51 @@
+================================================================================
+MAGMA LOG EXTRACTION REPORT
+================================================================================
+
+Group Order: 12
+
+INDIVIDUAL GROUP RESULTS:
+--------------------------------------------------------------------------------
+
+Group 12 #1
+  Results: [62, 24, 12, 18, 36, 10, 10]
+  Manager time:      0.03 seconds
+  Worker time:       2.52 seconds
+  Total time:        2.55 seconds
+
+Group 12 #2
+  Results: [27, 16, 5, 6, 12, 5, 5]
+  Manager time:      0.04 seconds
+  Worker time:       1.31 seconds
+  Total time:        1.35 seconds
+
+Group 12 #3
+  Results: [70, 26, 15, 15, 32, 8, 11]
+  Manager time:      0.02 seconds
+  Worker time:       2.85 seconds
+  Total time:        2.87 seconds
+
+Group 12 #4
+  Results: [62, 24, 14, 29, 36, 10, 10]
+  Manager time:      0.03 seconds
+  Worker time:       2.65 seconds
+  Total time:        2.68 seconds
+
+Group 12 #5
+  Results: [28, 12, 10, 13, 18, 5, 10]
+  Manager time:      0.03 seconds
+  Worker time:       1.93 seconds
+  Total time:        1.96 seconds
+
+================================================================================
+TOTALS ACROSS ALL GROUPS:
+================================================================================
+
+Number of groups: 5
+
+Sum of results arrays: [249, 102, 56, 81, 134, 38, 46]
+
+Total manager time:        0.15 seconds
+Total worker time:        11.26 seconds
+Grand total time:         11.41 seconds
+

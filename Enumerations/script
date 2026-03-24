@@ -1,0 +1,65 @@
+#!/bin/bash
+# Batch runner for Magma Manager-Worker processes with timeout
+# Runs the manager-worker script for multiple group numbers
+set -e
+
+# Configuration
+m=1
+M=14  # Run from m to M
+order=16  # Order parameter to pass to Magma
+DELAY_BETWEEN_RUNS=1  # Seconds to wait between each run
+TIMEOUT=10500  # Timeout in seconds (adjust as needed)
+
+# Create a log file for failures
+FAILURE_LOG="logs/failed_groups.log"
+> "$FAILURE_LOG"  # Clear the log file
+
+echo "========================================="
+echo "Magma Batch Runner with Timeout"
+echo "========================================="
+echo "Running groups $m to $M"
+echo "Order: $order"
+echo "Timeout: $TIMEOUT seconds per group"
+echo "Failure log: $FAILURE_LOG"
+echo "========================================="
+echo ""
+
+# Loop through all group numbers
+for nmr in $(seq $m $M); do
+    echo "========================================"
+    echo "Starting run for group $nmr (run $nmr of $M)"
+    echo "========================================"
+    echo ""
+    
+    # Run with timeout
+    set +e  # Temporarily disable exit on error
+    timeout $TIMEOUT magma -n nmr:=$nmr order:=$order manager.m
+    EXIT_CODE=$?
+    set -e  # Re-enable exit on error
+    
+    if [ $EXIT_CODE -eq 0 ]; then
+        echo "Group $nmr completed successfully"
+    elif [ $EXIT_CODE -eq 124 ]; then
+        echo "Group $nmr TIMED OUT after $TIMEOUT seconds"
+        echo "$nmr (timeout)" >> "$FAILURE_LOG"
+    else
+        echo "Group $nmr FAILED with exit code $EXIT_CODE"
+        echo "$nmr (exit code $EXIT_CODE)" >> "$FAILURE_LOG"
+    fi
+    
+    # Clean up any remaining worker processes
+    pgrep -f 'magma.*worker' | xargs -r kill -9 2>/dev/null || true
+    
+    echo ""
+    sleep $DELAY_BETWEEN_RUNS
+done
+
+echo "========================================="
+echo "Batch run complete!"
+echo "========================================="
+if [ -s "$FAILURE_LOG" ]; then
+    echo "Some groups failed or timed out:"
+    cat "$FAILURE_LOG"
+else
+    echo "All groups completed successfully!"
+fi

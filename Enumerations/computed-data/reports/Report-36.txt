@@ -1,0 +1,105 @@
+================================================================================
+MAGMA LOG EXTRACTION REPORT
+================================================================================
+
+Group Order: 36
+
+INDIVIDUAL GROUP RESULTS:
+--------------------------------------------------------------------------------
+
+Group 36 #1
+  Results: [298, 64, 36, 72, 138, 14, 32]
+  Manager time:      0.06 seconds
+  Worker time:      10.71 seconds
+  Total time:       10.77 seconds
+
+Group 36 #2
+  Results: [104, 48, 14, 20, 27, 7, 10]
+  Manager time:      0.03 seconds
+  Worker time:       6.21 seconds
+  Total time:        6.24 seconds
+
+Group 36 #3
+  Results: [310, 78, 48, 70, 87, 14, 24]
+  Manager time:      0.04 seconds
+  Worker time:      12.32 seconds
+  Total time:       12.36 seconds
+
+Group 36 #4
+  Results: [298, 64, 40, 118, 138, 14, 32]
+  Manager time:      0.06 seconds
+  Worker time:      11.82 seconds
+  Total time:       11.88 seconds
+
+Group 36 #5
+  Results: [114, 36, 30, 50, 45, 8, 22]
+  Manager time:      0.04 seconds
+  Worker time:       5.27 seconds
+  Total time:        5.31 seconds
+
+Group 36 #6
+  Results: [1628, 900, 52, 76, 204, 38, 32]
+  Manager time:      0.05 seconds
+  Worker time:      17.18 seconds
+  Total time:       17.23 seconds
+
+Group 36 #7
+  Results: [3470, 832, 193, 545, 1105, 70, 144]
+  Manager time:      0.19 seconds
+  Worker time:     272.78 seconds
+  Total time:      272.97 seconds
+
+Group 36 #8
+  Results: [508, 144, 61, 109, 209, 16, 51]
+  Manager time:      0.08 seconds
+  Worker time:      23.25 seconds
+  Total time:       23.33 seconds
+
+Group 36 #9
+  Results: [568, 212, 38, 78, 146, 16, 25]
+  Manager time:      0.04 seconds
+  Worker time:      30.32 seconds
+  Total time:       30.36 seconds
+
+Group 36 #10
+  Results: [2468, 1348, 49, 74, 232, 56, 26]
+  Manager time:      0.06 seconds
+  Worker time:      16.49 seconds
+  Total time:       16.55 seconds
+
+Group 36 #11
+  Results: [1140, 414, 136, 152, 255, 24, 70]
+  Manager time:      0.09 seconds
+  Worker time:      22.06 seconds
+  Total time:       22.15 seconds
+
+Group 36 #12
+  Results: [1628, 900, 58, 104, 204, 38, 32]
+  Manager time:      0.04 seconds
+  Worker time:      18.16 seconds
+  Total time:       18.20 seconds
+
+Group 36 #13
+  Results: [3470, 832, 215, 796, 1105, 70, 144]
+  Manager time:      0.19 seconds
+  Worker time:     304.27 seconds
+  Total time:      304.46 seconds
+
+Group 36 #14
+  Results: [508, 108, 129, 210, 264, 15, 109]
+  Manager time:      0.10 seconds
+  Worker time:      29.03 seconds
+  Total time:       29.13 seconds
+
+================================================================================
+TOTALS ACROSS ALL GROUPS:
+================================================================================
+
+Number of groups: 14
+
+Sum of results arrays: [16512, 5980, 1099, 2474, 4159, 400, 753]
+
+Total manager time:        1.07 seconds
+Total worker time:       779.87 seconds
+Grand total time:        780.94 seconds
+

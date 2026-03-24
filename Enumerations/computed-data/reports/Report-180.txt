@@ -1,0 +1,243 @@
+================================================================================
+MAGMA LOG EXTRACTION REPORT
+================================================================================
+
+Group Order: 180
+
+INDIVIDUAL GROUP RESULTS:
+--------------------------------------------------------------------------------
+
+Group 180 #1
+  Results: [4356, 614, 186, 536, 1252, 44, 170]
+  Manager time:      0.95 seconds
+  Worker time:     781.34 seconds
+  Total time:      782.29 seconds
+
+Group 180 #2
+  Results: [3608, 702, 182, 446, 738, 44, 108]
+  Manager time:      0.21 seconds
+  Worker time:     355.75 seconds
+  Total time:      355.96 seconds
+
+Group 180 #3
+  Results: [11520, 956, 489, 1572, 3756, 88, 340]
+  Manager time:      1.40 seconds
+  Worker time:    8312.37 seconds
+  Total time:     8313.77 seconds
+
+Group 180 #4
+  Results: [1398, 483, 70, 154, 246, 22, 54]
+  Manager time:      0.17 seconds
+  Worker time:      56.19 seconds
+  Total time:       56.36 seconds
+
+Group 180 #5
+  Results: [1332, 432, 64, 232, 183, 24, 32]
+  Manager time:      0.08 seconds
+  Worker time:      25.01 seconds
+  Total time:       25.09 seconds
+
+Group 180 #6
+  Results: [3472, 288, 169, 854, 936, 48, 102]
+  Manager time:      0.29 seconds
+  Worker time:     475.24 seconds
+  Total time:      475.53 seconds
+
+Group 180 #7
+  Results: [13388, 1560, 220, 1066, 1752, 80, 102]
+  Manager time:      0.55 seconds
+  Worker time:    1070.85 seconds
+  Total time:     1071.40 seconds
+
+Group 180 #8
+  Results: [1846, 498, 206, 280, 417, 22, 118]
+  Manager time:      0.14 seconds
+  Worker time:     127.01 seconds
+  Total time:      127.15 seconds
+
+Group 180 #9
+  Results: [3608, 702, 210, 674, 738, 44, 108]
+  Manager time:      0.21 seconds
+  Worker time:     376.98 seconds
+  Total time:      377.19 seconds
+
+Group 180 #10
+  Results: [4356, 614, 198, 794, 1252, 44, 170]
+  Manager time:      0.97 seconds
+  Worker time:     842.47 seconds
+  Total time:      843.44 seconds
+
+Group 180 #11
+  Results: [11520, 956, 501, 2232, 3756, 88, 340]
+  Manager time:      1.39 seconds
+  Worker time:    8943.81 seconds
+  Total time:     8945.20 seconds
+
+Group 180 #12
+  Results: [1070, 261, 148, 294, 306, 18, 116]
+  Manager time:      0.19 seconds
+  Worker time:      88.21 seconds
+  Total time:       88.40 seconds
+
+Group 180 #13
+  Results: [21270, 2106, 1119, 3565, 7593, 104, 766]
+  Manager time:      4.68 seconds
+  Worker time:   11104.40 seconds
+  Total time:    11109.08 seconds
+
+Group 180 #14
+  Results: [24800, 9540, 344, 862, 2408, 128, 236]
+  Manager time:      1.32 seconds
+  Worker time:    1611.25 seconds
+  Total time:     1612.57 seconds
+
+Group 180 #15
+  Results: [65408, 14280, 900, 2426, 7224, 256, 472]
+  Manager time:      1.93 seconds
+  Worker time:   10500.80 seconds
+  Total time:    10502.73 seconds
+
+Group 180 #16
+  Results: [56216, 8702, 1367, 5659, 12901, 228, 1056]
+  Manager time:      3.59 seconds
+  Worker time:   22011.40 seconds
+  Total time:    22014.99 seconds
+
+Group 180 #17
+  Results: [153032, 12620, 3557, 16046, 38703, 456, 2112]
+  Manager time:     12.75 seconds
+  Worker time:   235741.00 seconds
+  Total time:    235753.75 seconds
+
+Group 180 #18
+  Results: [7968, 1449, 437, 1288, 2531, 52, 383]
+  Manager time:      1.41 seconds
+  Worker time:    1876.69 seconds
+  Total time:     1878.10 seconds
+
+Group 180 #19
+  Results: [5878, 5226, 72, 72, 161, 14, 57]
+  Manager time:      0.14 seconds
+  Worker time:      39.34 seconds
+  Total time:       39.48 seconds
+
+Group 180 #20
+  Results: [6462, 1296, 289, 1150, 1413, 48, 176]
+  Manager time:      0.81 seconds
+  Worker time:     655.34 seconds
+  Total time:      656.15 seconds
+
+Group 180 #21
+  Results: [15484, 4320, 250, 804, 1341, 96, 108]
+  Manager time:      0.30 seconds
+  Worker time:     583.69 seconds
+  Total time:      583.99 seconds
+
+Group 180 #22
+  Results: [47048, 6336, 940, 6025, 7419, 208, 492]
+  Manager time:      2.07 seconds
+  Worker time:   11142.90 seconds
+  Total time:    11144.97 seconds
+
+Group 180 #23
+  Results: [8296, 2332, 223, 712, 1439, 52, 149]
+  Manager time:      0.44 seconds
+  Worker time:    1133.45 seconds
+  Total time:     1133.89 seconds
+
+Group 180 #24
+  Results: [22288, 3160, 581, 2028, 4317, 104, 298]
+  Manager time:      1.32 seconds
+  Worker time:    8064.09 seconds
+  Total time:     8065.41 seconds
+
+Group 180 #25
+  Results: [16052, 5040, 210, 1000, 1290, 64, 104]
+  Manager time:      0.34 seconds
+  Worker time:    1909.21 seconds
+  Total time:     1909.55 seconds
+
+Group 180 #26
+  Results: [84436, 24816, 338, 1120, 3747, 320, 108]
+  Manager time:      0.87 seconds
+  Worker time:    2125.97 seconds
+  Total time:     2126.84 seconds
+
+Group 180 #27
+  Results: [158144, 20664, 1311, 9661, 19569, 496, 492]
+  Manager time:      5.16 seconds
+  Worker time:   32715.30 seconds
+  Total time:    32720.46 seconds
+
+Group 180 #28
+  Results: [37734, 14108, 241, 760, 2700, 212, 148]
+  Manager time:      0.56 seconds
+  Worker time:    1584.37 seconds
+  Total time:     1584.93 seconds
+
+Group 180 #29
+  Results: [184752, 42048, 591, 2342, 12195, 768, 232]
+  Manager time:      3.46 seconds
+  Worker time:   12960.70 seconds
+  Total time:    12964.16 seconds
+
+Group 180 #30
+  Results: [98412, 20888, 569, 1872, 8100, 424, 296]
+  Manager time:      1.74 seconds
+  Worker time:   10194.20 seconds
+  Total time:    10195.94 seconds
+
+Group 180 #31
+  Results: [8740, 2574, 798, 862, 1701, 44, 482]
+  Manager time:      1.14 seconds
+  Worker time:    1060.50 seconds
+  Total time:     1061.64 seconds
+
+Group 180 #32
+  Results: [21270, 2106, 1241, 5100, 7593, 104, 766]
+  Manager time:      4.67 seconds
+  Worker time:   11803.80 seconds
+  Total time:    11808.47 seconds
+
+Group 180 #33
+  Results: [24800, 9540, 366, 1142, 2408, 128, 236]
+  Manager time:      1.32 seconds
+  Worker time:    1682.22 seconds
+  Total time:     1683.54 seconds
+
+Group 180 #34
+  Results: [65408, 14280, 922, 3130, 7224, 256, 472]
+  Manager time:      1.96 seconds
+  Worker time:   11257.90 seconds
+  Total time:    11259.86 seconds
+
+Group 180 #35
+  Results: [56216, 8702, 1479, 7864, 12901, 228, 1056]
+  Manager time:      3.48 seconds
+  Worker time:   23279.80 seconds
+  Total time:    23283.28 seconds
+
+Group 180 #36
+  Results: [153032, 12620, 3635, 21978, 38703, 456, 2112]
+  Manager time:     12.09 seconds
+  Worker time:   241588.00 seconds
+  Total time:    241600.09 seconds
+
+Group 180 #37
+  Results: [6162, 783, 909, 2024, 2668, 37, 801]
+  Manager time:      1.69 seconds
+  Worker time:    2247.75 seconds
+  Total time:     2249.44 seconds
+
+================================================================================
+TOTALS ACROSS ALL GROUPS:
+================================================================================
+
+Number of groups: 37
+
+Sum of results arrays: [1410782, 257602, 25332, 108626, 223581, 5849, 15370]
+
+Total manager time:       75.79 seconds
+Total worker time:    680329.30 seconds
+Grand total time:     680405.09 seconds
+

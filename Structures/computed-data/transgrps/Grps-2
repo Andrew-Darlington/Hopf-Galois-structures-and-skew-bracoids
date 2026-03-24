@@ -1,0 +1,5 @@
+[ PowerStructure(GrpPerm) |
+    PermutationGroup<2 |  
+        \[ 2, 1 ]:
+         Order := 2 >
+]

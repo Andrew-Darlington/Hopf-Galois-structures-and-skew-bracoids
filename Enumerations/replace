@@ -1,0 +1,4 @@
+#!/bin/bash
+old=$(printf '%s\n' "$1" | sed 's/[[\.*^$/]/\\&/g')
+new=$(printf '%s\n' "$2" | sed 's/[[\.*^$/]/\\&/g')
+sed -i "s|$old|$new|g" manager*.m worker*.m 2>/dev/null || true

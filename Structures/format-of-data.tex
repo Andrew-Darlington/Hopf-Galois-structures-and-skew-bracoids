@@ -1,0 +1,152 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[a4paper, margin=2.5cm]{geometry}
+\usepackage{listings}
+\usepackage{parskip}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\lstset{
+	basicstyle=\ttfamily\small,
+	breaklines=true,
+	frame=single,
+	backgroundcolor=\color{gray!8},
+	commentstyle=\color{gray},
+	morecomment=[l]{//},
+}
+
+\title{The data stored in \texttt{results} directory}
+\date{}
+
+\begin{document}
+	
+	\maketitle
+	
+	For a given integer $n$, two files are stored.
+	\begin{itemize}
+		\item \texttt{Grps-n} is stored in \texttt{results/transgrps}. It contains a
+		complete list of the transitive subgroups of $\mathrm{Hol}(N)$ for all groups $N$
+		of order $n$.
+		
+		\item \texttt{Results-n} is stored in \texttt{results}. It describes the equivalence
+		classes of these transitive subgroups and records the number of corresponding
+		structures.
+	\end{itemize}
+	
+	The subgroups are stored as a sequence, say $X$.
+	
+	Each equivalence class $C$ is recorded as a tuple having the following shape:
+	
+\begin{lstlisting}
+< a,  bool,
+[
+// may be multiple entries of this type for different values of m
+[ <m, [ b ], [ c ], [ d ], e, f, g, h, i, j>
+...
+] 
+>;
+\end{lstlisting}
+	
+	The contents of $C$ are the following:
+	
+	\begin{itemize}
+		\item $a$ = size of $C$.
+		
+		\item If \texttt{bool} is \texttt{true}, then:
+		\begin{itemize}
+			\item the skew bracoids are essentially skew braces, otherwise not;
+			\item the corresponding field extensions are Galois, otherwise they are
+			not normal.
+		\end{itemize}
+	\end{itemize}
+	
+	Let $N = \mathtt{SmallGroup}(n, m)$ where 
+	$m \in [1\,..\,\mathtt{NumberOfSmallGroups}(n)]$.
+	If transitive subgroups of $\mathrm{Hol}(N)$ contribute to $C$, 
+	then the sequence $C[3]$ has an entry 
+	$$\langle m,\,[b],\,[c],\,[d],\,e,\,f,\,g,\,h,\,i,\,j\rangle.$$
+	Its contents are the following.
+	\begin{itemize}
+		\item The sequence $[b]$ records the index positions in the sequence $X$ of these
+		transitive subgroups of $\mathrm{Hol}(N)$.
+		
+		\item The sequence $[c]$ records the index positions in $X$ of those transitive subgroups which
+		correspond to Hopf--Galois structures giving a bijective Hopf--Galois
+		correspondence.
+		
+		\item The sequence $[d]$ records the index positions in $X$ of 
+those transitive 
+		subgroups which correspond to almost classical structures.
+		
+		\item $e$ = the number of subgroups (counting conjugacy) contributed 
+		by $N$. (If we sum the values of $e$ for all $N$ contributing 
+		to $C$, then we obtain $a$, the size of $C$.)
+		
+		\item $f$ = the number of Hopf-Galois structures corresponding to $N$.
+		\item $g$ = the number of these Hopf-Galois structures which 
+		admit a bijective correspondence.
+		\item $h$ = the number of these Hopf-Galois structures  which are almost classically Galois.
+		\item $i$ = the number of skew bracoids corresponding to $N$.
+		\item $j$ = the number of these skew bracoids which are almost classical.
+	\end{itemize}
+	
+	We record one illustrative example.
+	
+	\begin{lstlisting}
+> X := eval Read ("results/TransGrps/Grps-8");
+
+> // Holomorphs of all five groups of order 8 contain 148 conjugacy classes of transitive subgroups
+
+> #X;
+
+148
+
+> Y := eval Read ("results/Results-8");
+
+> // there are 35 equivalence classes
+
+> #Y;
+
+35
+
+> // one equivalence class
+
+> C := Y[29];
+
+> C;
+
+<8, false, [
+<3, [ 73, 76 ], [ 73, 76 ], [ 73 ], 2, 2, 2, 1, 2, 1>,
+<4, [ 102, 104 ], [ 102, 104 ], [ 102 ], 6, 2, 2, 1, 2, 1>
+]>
+\end{lstlisting}
+	From this data, we deduce the following.
+	
+	\begin{itemize}
+		\item 
+		The size of the equivalence class is 8.
+		
+		\item 
+		The skew bracoids are not essentially skew braces and 
+		the corresponding field extensions are not Galois. 
+		
+		\item 
+		The two groups contributing to $C$ are {\tt SmallGroup}$(8, m)$ for $m= 3, 4$. Let these be denoted by $N_1$ and $N_2$ respectively.
+		
+		\item 
+		Two conjugacy classes of transitive subgroups of $\mathrm{Hol}(N_1)$ 
+		contribute to $C$; representatives are $X[73]$ and $X[76]$; the 
+		number of subgroups in these classes is 2. 
+		
+		\item 
+		Two conjugacy classes of transitive subgroups of $\mathrm{Hol}(N_2)$
+		contribute to $C$; representatives  are $X[102]$ and $X[104]$; 
+		the number of subgroups in these classes is 6. 
+		
+		\item Let $L/K$ be a separable extension associated to $C$. Then $L/K$ admits 2 Hopf--Galois structures of type $N_1$, corresponding to the transitive subgroups $X[73]$ and $X[76]$, and 2 Hopf--Galois structures of type $N_2$, corresponding to the transitive subgroups $X[102]$ and $X[104]$. All such Hopf--Galois structures admit a bijective correspondence, while only the structures associated to $X[73]$ and $X[104]$ are almost classically Galois.
+		
+		\item For $1 \leq i \leq 4$, there are actions $\odot_i$ such that the triples $(X[73],N_1,\odot_1)$, $(X[76],N_1,\odot_2)$, $(X[102],N_2,\odot_3)$ and $(X[104],N_2,\odot_4)$ each represent equivalence classes of skew bracoids (in particular, two classes have type $N_1$ and two classes have type $N_2$). The bracoids $(X[73],N_1,\odot_1)$ and $(X[102],N_2,\odot_3)$ are almost classical. Note that the stabilisers of the actions are pairwise isomorphic.
+		
+	\end{itemize}
+	
+\end{document}

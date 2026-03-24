@@ -1,0 +1,81 @@
+================================================================================
+MAGMA LOG EXTRACTION REPORT
+================================================================================
+
+Group Order: 90
+
+INDIVIDUAL GROUP RESULTS:
+--------------------------------------------------------------------------------
+
+Group 90 #1
+  Results: [490, 48, 57, 144, 220, 12, 51]
+  Manager time:      0.11 seconds
+  Worker time:      22.07 seconds
+  Total time:       22.18 seconds
+
+Group 90 #2
+  Results: [388, 48, 58, 124, 129, 12, 32]
+  Manager time:      0.04 seconds
+  Worker time:      17.26 seconds
+  Total time:       17.30 seconds
+
+Group 90 #3
+  Results: [1044, 32, 152, 454, 660, 24, 102]
+  Manager time:      0.17 seconds
+  Worker time:     175.57 seconds
+  Total time:      175.74 seconds
+
+Group 90 #4
+  Results: [188, 72, 22, 40, 43, 6, 16]
+  Manager time:      0.05 seconds
+  Worker time:       7.98 seconds
+  Total time:        8.03 seconds
+
+Group 90 #5
+  Results: [1884, 108, 269, 637, 942, 20, 176]
+  Manager time:      0.41 seconds
+  Worker time:     329.22 seconds
+  Total time:      329.63 seconds
+
+Group 90 #6
+  Results: [2190, 720, 86, 152, 311, 24, 54]
+  Manager time:      0.12 seconds
+  Worker time:      33.73 seconds
+  Total time:       33.85 seconds
+
+Group 90 #7
+  Results: [4800, 480, 228, 448, 933, 48, 108]
+  Manager time:      0.17 seconds
+  Worker time:     220.72 seconds
+  Total time:      220.89 seconds
+
+Group 90 #8
+  Results: [5624, 732, 327, 1097, 1676, 46, 246]
+  Manager time:      0.35 seconds
+  Worker time:     664.80 seconds
+  Total time:      665.15 seconds
+
+Group 90 #9
+  Results: [12732, 488, 862, 3294, 5028, 92, 492]
+  Manager time:      1.09 seconds
+  Worker time:    5311.32 seconds
+  Total time:     5312.41 seconds
+
+Group 90 #10
+  Results: [827, 162, 104, 221, 314, 10, 88]
+  Manager time:      0.14 seconds
+  Worker time:      65.04 seconds
+  Total time:       65.18 seconds
+
+================================================================================
+TOTALS ACROSS ALL GROUPS:
+================================================================================
+
+Number of groups: 10
+
+Sum of results arrays: [30167, 2890, 2165, 6611, 10256, 294, 1365]
+
+Total manager time:        2.65 seconds
+Total worker time:      6847.71 seconds
+Grand total time:       6850.36 seconds
+

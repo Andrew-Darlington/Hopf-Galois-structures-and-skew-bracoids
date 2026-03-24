@@ -1,0 +1,99 @@
+================================================================================
+MAGMA LOG EXTRACTION REPORT
+================================================================================
+
+Group Order: 150
+
+INDIVIDUAL GROUP RESULTS:
+--------------------------------------------------------------------------------
+
+Group 150 #1
+  Results: [484, 120, 58, 128, 123, 12, 32]
+  Manager time:      0.08 seconds
+  Worker time:      15.92 seconds
+  Total time:       16.00 seconds
+
+Group 150 #2
+  Results: [494, 48, 60, 136, 208, 12, 50]
+  Manager time:      0.10 seconds
+  Worker time:      91.15 seconds
+  Total time:       91.25 seconds
+
+Group 150 #3
+  Results: [1036, 48, 145, 438, 624, 24, 100]
+  Manager time:      0.30 seconds
+  Worker time:    1505.94 seconds
+  Total time:     1506.24 seconds
+
+Group 150 #4
+  Results: [238, 120, 24, 40, 41, 6, 16]
+  Manager time:      0.05 seconds
+  Worker time:       4.91 seconds
+  Total time:        4.96 seconds
+
+Group 150 #5
+  Results: [8010, 6492, 61, 143, 247, 16, 48]
+  Manager time:      0.07 seconds
+  Worker time:     192.29 seconds
+  Total time:      192.36 seconds
+
+Group 150 #6
+  Results: [3070, 1792, 66, 204, 341, 20, 48]
+  Manager time:      0.11 seconds
+  Worker time:     295.10 seconds
+  Total time:      295.21 seconds
+
+Group 150 #7
+  Results: [4846, 2542, 68, 143, 359, 26, 48]
+  Manager time:      0.12 seconds
+  Worker time:     611.31 seconds
+  Total time:      611.43 seconds
+
+Group 150 #8
+  Results: [5262, 1680, 186, 410, 623, 24, 108]
+  Manager time:      0.10 seconds
+  Worker time:     176.10 seconds
+  Total time:      176.20 seconds
+
+Group 150 #9
+  Results: [13906, 2278, 645, 2108, 3244, 58, 456]
+  Manager time:      0.98 seconds
+  Worker time:    5027.67 seconds
+  Total time:     5028.65 seconds
+
+Group 150 #10
+  Results: [4014, 450, 469, 1244, 1913, 26, 345]
+  Manager time:      1.16 seconds
+  Worker time:     665.07 seconds
+  Total time:      666.23 seconds
+
+Group 150 #11
+  Results: [11248, 1680, 436, 1148, 1869, 48, 216]
+  Manager time:      0.38 seconds
+  Worker time:     766.24 seconds
+  Total time:      766.62 seconds
+
+Group 150 #12
+  Results: [29028, 2228, 1549, 6287, 9831, 116, 938]
+  Manager time:      3.53 seconds
+  Worker time:   46024.30 seconds
+  Total time:    46027.83 seconds
+
+Group 150 #13
+  Results: [1891, 425, 198, 436, 628, 13, 166]
+  Manager time:      0.32 seconds
+  Worker time:     172.49 seconds
+  Total time:      172.81 seconds
+
+================================================================================
+TOTALS ACROSS ALL GROUPS:
+================================================================================
+
+Number of groups: 13
+
+Sum of results arrays: [83527, 19903, 3965, 12865, 20051, 401, 2571]
+
+Total manager time:        7.30 seconds
+Total worker time:     55548.49 seconds
+Grand total time:      55555.79 seconds
+

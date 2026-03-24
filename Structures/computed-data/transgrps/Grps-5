@@ -1,0 +1,13 @@
+[ PowerStructure(GrpPerm) |
+    PermutationGroup<5 |  
+        \[ 2, 3, 4, 5, 1 ]:
+         Order := 5 >,
+    PermutationGroup<5 |  
+        \[ 1, 5, 4, 3, 2 ],
+        \[ 2, 3, 4, 5, 1 ]:
+         Order := 10 >,
+    PermutationGroup<5 |  
+        \[ 2, 3, 4, 5, 1 ],
+        \[ 1, 3, 5, 2, 4 ]:
+         Order := 20 >
+]
