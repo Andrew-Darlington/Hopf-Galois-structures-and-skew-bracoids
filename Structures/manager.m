@@ -1,10 +1,11 @@
+Attach("attributes.m");
+
 Nmr_Workers := 8;
 
 SetLogFile ("logs/manager.log");
 // you need to change this to hostname of machine, also in worker file
 host := "host.name";
 base_port:= 10000;
-
 
 /*
    given an integer n, outputs a list of all transitive subgroups G 
@@ -113,7 +114,6 @@ end function;
 NumAll := function (n)
 
    tt := Cputime (); 
-   Attach("attributes.m");
 
    Groups,TE := TransEquivalenceClasses (n);
    
