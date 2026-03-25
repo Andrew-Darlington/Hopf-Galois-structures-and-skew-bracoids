@@ -1,4 +1,4 @@
-Nmr_Workers := 100;
+Nmr_Workers := 8;
 
 // uncomment these values if you want to process group directly in magma session;
 // retain the "  " 
