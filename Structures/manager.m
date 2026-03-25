@@ -141,7 +141,7 @@ NumAll := function (n)
    delete I4;
    System ("pgrep -f 'magma.*worker' | xargs -r kill -9 2>/dev/null || true");
    Z4 := Flat(Z4);
-   "# of X is ", #Z4, "\n";
+   // "# of X is ", #Z4, "\n";
    X := [<z[1], z[2], [x:x in z[3]]>: z in Z4];
    delete Z4;
    
