@@ -5,9 +5,12 @@
 \usepackage{enumitem}
 \usepackage{parskip}
 
-\title{Constructing Hopf--Galois Structures and Skew Bracoids of Small Degree}
-\author{Andrew Darlington and E.A.\ O'Brien}
+\title{\textbf{Constructing Hopf--Galois structures and skew bracoids of small d
+egree}\\[0.5em]
+\large Classification of structures algorithm --- guide to use}
+\author{Andrew Darlington \and E.A.\ O'Brien}
 \date{Last revised March 2026}
+
 
 \begin{document}
 
@@ -20,7 +23,7 @@ This directory contains material related to the classification of structures alg
     Authors: Andrew Darlington and E.A. O'Brien
 \end{center}
 
-\section*{Directory Structure}
+\section*{1. Directory Structure}
 
 \begin{itemize}
     \item Files in the top-level directory include the Magma scripts \texttt{manager.m}, \texttt{workerA/B/C/D.m} and \texttt{attributes.m}.
@@ -36,13 +39,13 @@ For a guide to the stored data, see:
 
 \url{https://github.com/Andrew-Darlington/Hopf-Galois-structures-and-skew-bracoids/blob/main/Structures/format-of-data.pdf} 
 
-\section*{Usage Instructions}
+\section*{Usage instructions}
 
 \subsection*{1. Setup}
 
 See the \texttt{README.md} file in \texttt{Enumerations} for comment on the manager/worker environment used by Magma. Ensure the host name and ports are set correctly in the manager and worker files, and set the number of workers in \texttt{manager.m}.
 
-\subsection*{2. Running the Main Script}
+\subsection*{2. Running the main script}
 
 The main script is \texttt{manager.m}. For a given degree $n$, this can be run interactively as follows:
 
@@ -54,11 +57,11 @@ NumAll (n);
 
 The main results are stored in \texttt{results/Results-n}. The corresponding list of transitive subgroups is stored in \texttt{results/transgrps/Grps-n}.
 
-\subsection*{3. Running Over a Range}
+\subsection*{3. Running over a range}
 
 If you wish to run over a range of values for $n$, then uncomment the code at the end of \texttt{manager.m} and edit accordingly.
 
-\subsection*{4. Shell Scripts}
+\subsection*{4. Shell scripts}
 
 The directory contains two shell scripts which require execute permission:
 
