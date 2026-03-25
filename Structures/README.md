@@ -7,4 +7,5 @@ Authors: Andrew Darlington and E.A. O'Brien
 
 For details, see 
 
-https://github.com/Andrew-Darlington/Hopf-Galois-structures-and-skew-bracoids/blob/Structures/guide.pdf
+https://github.com/Andrew-Darlington/Hopf-Galois-structures-and-skew-bracoids/blob/main/Structures/guide.pdf
+
