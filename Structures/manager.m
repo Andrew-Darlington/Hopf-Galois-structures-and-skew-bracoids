@@ -31,7 +31,7 @@ Data := function (n)
    
    I2 := Flat(Z1);
    delete Z1;
-   "# of I2 cases is ", #I2;
+   // "# of I2 cases is ", #I2;
    System ("pgrep -f 'magma.*worker' | xargs -r kill -9 2>/dev/null || true");
    
    id:=1;
@@ -76,14 +76,14 @@ TransEquivalenceClasses := function (n)
     
     D := Data (n);
     ords := {G`Order : G in D};
-    "ords is ", ords;
+    // "ords is ", ords;
 
     I3 := [[<G,G`Length,G`Stabs,G`Id> : G in D | G`Order eq d] : d in ords];
     
 
     socketC := Socket (: LocalHost := host, LocalPort := base_port+400); 
 
-    "# of I3 cases is ", #I3;
+    // "# of I3 cases is ", #I3;
 
     for i in [1..Nmr_Workers] do
        command := "magma workerC.m > logs/workerC-" cat IntegerToString(i) cat ".log 2 &";
@@ -128,7 +128,7 @@ NumAll := function (n)
    	Append(~I4,<EquivClass,r[1],n>);
    end for;
    delete TE;
-   "# of I4 cases is ", #I4;
+   // "# of I4 cases is ", #I4;
 
    socketD := Socket (: LocalHost := host, LocalPort := base_port+600);
 
