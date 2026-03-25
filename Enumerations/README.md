@@ -9,4 +9,3 @@ For details, see
 
 https://github.com/Andrew-Darlington/Hopf-Galois-structures-and-skew-bracoids/blob/main/Enumerations/guide.pdf
 
-<https://github.com/Andrew-Darlington/Hopf-Galois-structures-and-skew-bracoids/blob/Enumerations/guide.pdf>
