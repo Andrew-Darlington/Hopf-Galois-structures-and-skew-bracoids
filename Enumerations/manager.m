@@ -10,8 +10,7 @@ SetLogFile (name);
 SetEchoInput (true);
 SetVerbose("ManagerWorker", 1);
 // you need to change this to hostname of machine, also in worker file
-socket := Socket(: LocalHost :="forder.math.auckland.ac.nz",
-LocalPort := 10000);
+socket := Socket(: LocalHost := "host.name", LocalPort := 10000);
 
 tt := Cputime ();
 

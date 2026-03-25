@@ -142,7 +142,7 @@ return TestGroup (params);
 end function;
  
 // needs to be same as for manager
-host :="forder.math.auckland.ac.nz";
+host :="host.name";
 port := 10000;
 DistributedWorker(host, port, TestGroup);
 quit;

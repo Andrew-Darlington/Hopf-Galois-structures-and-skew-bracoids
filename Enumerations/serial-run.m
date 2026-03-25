@@ -141,7 +141,7 @@ hol, f := Holomorph (N);
 N := f(N);
 "Order hol ", #hol;
 "compute subgroups";
-t := Subgroups(hol:OrderMultipleOf := n, IsTransitive:=true);
+t := Subgroups (hol: OrderMultipleOf := n, IsTransitive:=true);
 I := [<x`subgroup, x`length, N, hol>: x in t];
 //here we sum by multiplying out by the sizes of the conjugacy classes.
 "# of subgroups is ", #I;
