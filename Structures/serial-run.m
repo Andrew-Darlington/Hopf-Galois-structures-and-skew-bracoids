@@ -1,3 +1,7 @@
+Attach("attributes.m");
+
+MaxTransitiveGroupId := 30;
+
 //======================================================================
 //======================================================================
 TransSubs := function (n,i,id)
@@ -101,7 +105,7 @@ NumOfAutomorphisms := function (G)
    return #Q,Gprime_keys;
 end function;
  
-TransGroup := function (G,N,hol)
+TransGroup := function (G, N, hol)
    n:=#N;
 
    CN := Centraliser (Sym (n), N);
@@ -202,7 +206,7 @@ end function;
 
 // partition bins using TransitiveGroupIdentification and isomorphism merge 
 MyTransitiveBins := function (S)
-   if Degree (Rep (S)) le 47 then 
+   if Degree (Rep (S)) le MaxTransitiveGroupId then 
       ids := [a where a := TransitiveGroupIdentification (s): s in S];
       index := [[i: i in [1..#ids] | ids[i] eq j]: j in Set (ids)];
       index := MergeClasses (S, index);
@@ -274,7 +278,7 @@ TransEquiv := function (D: Min_Order := 16, BIN_SIZE := 4, Standard := true)
    if CanIdentifyGroup (#rep) then 
       "Partition using IdGroup strategy";
       success, bins := MyBins (D);
-   elif Degree (rep) le 47 then 
+   elif Degree (rep) le MaxTransitiveGroupId then 
       "Partition using IdTrans and refine to isom strategy";
       success, bins := MyTransitiveBins (D);
    else 
@@ -475,7 +479,6 @@ end function;
   
 //MAIN function, returns a database of HGSs & SBs of degree n with attached data
 NumAll := function (n)
-Attach("attributes.m");
    TE,Groups := TransEquivalenceClasses (n);
    
    X := [];
@@ -495,8 +498,6 @@ Attach("attributes.m");
    RESULTS := "Results-" cat IntegerToString (n);
    GROUPS := "Grps-" cat IntegerToString (n);
    
-   PrintFileMagma ("results/" cat RESULTS, X);
-   PrintFileMagma ("results/transgrps/" cat GROUPS, Groups);
    return X;
 end function;
 
