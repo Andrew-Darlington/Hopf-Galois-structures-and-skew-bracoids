@@ -14,9 +14,9 @@ Each has a README which gives basic information on how to use the related code.
 
 We assume the following:
 
-a/ code runs in a Linux environment 
+a/ code runs in a Linux environment using uptodate version of Magma;
 
-b/ the user can run bash shell scripts; 
+b/ the user can execute bash shell scripts; 
 
 c/ availability of python3 for some of the auxiliary files. 
 
