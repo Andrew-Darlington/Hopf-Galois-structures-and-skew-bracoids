@@ -1,3 +1,5 @@
+MaxTransitiveGroupId := 30;
+
 // partition collection of groups S up to isomorphism 
 NonIsom := function (S)
    if #S le 1 then return S, [i : i in [1..#S]]; end if;
@@ -63,7 +65,7 @@ end function;
 
 // partition bins using TransitiveGroupIdentification and isomorphism merge 
 MyTransitiveBins := function (S)
-   if Degree (Rep (S)) le 47 then 
+   if Degree (Rep (S)) le MaxTransitiveGroupId then 
       ids := [a where a := TransitiveGroupIdentification (s): s in S];
       index := [[i: i in [1..#ids] | ids[i] eq j]: j in Set (ids)];
       index := MergeClasses (S, index);
@@ -137,7 +139,7 @@ TransEquiv := function (params: Min_Order := 16, BIN_SIZE := 4, Standard := true
    if CanIdentifyGroup (#rep) then 
       "Partition using IdGroup strategy";
       success, bins := MyBins (subs);
-   elif Degree (rep) le 47 then 
+   elif Degree (rep) le MaxTransitiveGroupId then 
       "Partition using IdTrans and refine to isom strategy";
       success, bins := MyTransitiveBins (subs);
    else 
