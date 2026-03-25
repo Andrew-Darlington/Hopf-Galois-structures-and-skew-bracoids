@@ -64,14 +64,14 @@ MyGeneratingSet := function (G, A: Limit := 2, Max := 5)
    return A, P;
 end function;
  
-NumOfAutomorphisms := function (G)
+NumOfAutomorphisms := function (G: Verbose := false)
    A := AutomorphismGroup (G: UsePCGroup := true);
    A, P := MyGeneratingSet (G, A);
    ng := Ngens (A);
-   "Number of generators of A is now ", ng;
+   if Verbose then "Number of generators of A is now ", ng; end if;
    
    S0 := Stabiliser (G, 1);
-   "Size of stabiliser is ", #S0;
+   if Verbose then "Size of stabiliser is ", #S0; end if;
    Gprime_keys := {@ CanonicalInvariant (S0) @};
    perms := [[] : i in [1..ng]];
  
@@ -85,7 +85,7 @@ NumOfAutomorphisms := function (G)
        if pos eq 0 then
          Include (~Gprime_keys, key);
          if #Gprime_keys mod 10000 eq 0 then 
-           "j, #Gprime ", j, #Gprime_keys;
+           if Verbose then "j, #Gprime ", j, #Gprime_keys; end if;
          end if;
          Include (~Gprime_keys, key);
          pos := #Gprime_keys;
@@ -95,7 +95,7 @@ NumOfAutomorphisms := function (G)
      j +:= 1;
    end while;
  
-   "Size of class is ", #Gprime_keys;
+   if Verbose then "Size of class is ", #Gprime_keys; end if;
    pgp := sub<Sym (#Gprime_keys) | [perms[i]: i in [1..ng]]>;
    perm_elts := [pgp!perms[i] : i in [1..ng]];
  
@@ -105,7 +105,7 @@ NumOfAutomorphisms := function (G)
    return #Q,Gprime_keys;
 end function;
  
-TransGroup := function (G, N, hol)
+TransGroup := function (G, N, hol: Verbose := false)
    n:=#N;
 
    CN := Centraliser (Sym (n), N);
@@ -127,7 +127,7 @@ TransGroup := function (G, N, hol)
 	stabs:={@ [] @};
 	ordaut:=#AutomorphismGroup(G);
    else
-      numaut,stab := NumOfAutomorphisms (G);
+      numaut,stab := NumOfAutomorphisms (G: Verbose := Verbose);
       if intfields eq subGst then
         isAC := CN subset G;
         props:=<false,true,isAC>; 
@@ -269,38 +269,39 @@ GroupIds := function (S)
 end function;
 
 // By default use StandardPresentation if order or bin size is large enough
-TransEquiv := function (D: Min_Order := 16, BIN_SIZE := 4, Standard := true)
+TransEquiv := function (D: Verbose := false, Min_Order := 16, BIN_SIZE := 4, Standard := true)
 
    rep := D[1];
-   "Order of subgroups is ", #rep;
-   "Number of subgroups is ", #D;
+   if Verbose then "Order of subgroups is ", #rep; end if;
+   if Verbose then "Number of subgroups is ", #D; end if;
 
    if CanIdentifyGroup (#rep) then 
-      "Partition using IdGroup strategy";
+      if Verbose then "Partition using IdGroup strategy"; end if;
       success, bins := MyBins (D);
    elif Degree (rep) le MaxTransitiveGroupId then 
-      "Partition using IdTrans and refine to isom strategy";
+      if Verbose then "Partition using IdTrans and refine to isom strategy"; end if;
       success, bins := MyTransitiveBins (D);
    else 
-      "Default strategy: no known isomorphisms among subgroups";
+      if Verbose then "Default strategy: no known isomorphisms among subgroups"; end if;
       success := false;
       bins := [[i: i in [1..#D]]];
    end if;
 
-   "After Order id and Transitive id, # of bins is ", #bins;
-   "Sizes of bins are ", [#b: b in bins];
+   if Verbose then "After Order id and Transitive id, # of bins is ", #bins; end if;
+   if Verbose then "Sizes of bins are ", [#b: b in bins]; end if;
 
    // if no partition into isomorphism types from previous strategies 
    // for p-groups, then use StandardPresentation to do this 
    standard_setup := Standard and IsPrimePower (#rep) and 
                      #rep ge Min_Order and not success; 
    if standard_setup then 
-      "Now apply Standard Presentation strategy for p-groups";
+      if Verbose then "Now apply Standard Presentation strategy for p-groups"; end if;
       t := Cputime ();
       standard, maps, bins := MyStandard (D);
-      "Total time to standardise ", Cputime (t);
-      "After Standard, # of bins is ", #bins; 
-      "After Standard, sizes of bins are ", [#b: b in bins];
+      if Verbose then "Total time to standardise ", Cputime (t); end if;
+      if Verbose then "After Standard, # of bins is ", #bins;  end if;
+      if Verbose then "After Standard, sizes of bins are ", [#b: b in bins]; 
+end if;
    end if;
 
 total := 0;
@@ -312,16 +313,16 @@ total := 0;
    for m in [1..#bins] do
       bin := bins[m];
       Sort (~bin);
-      "\nProcess bin", m, "of size ", #bin;
+      if Verbose then "\nProcess bin", m, "of size ", #bin; end if;
 
       use_standard_maps := false;
       if Standard and not standard_setup and 
          (IsPrimePower (#rep) and #rep ge Min_Order and #bin gt BIN_SIZE) then 
-         "Setup standard presentations for this bin";
+         if Verbose then "Setup standard presentations for this bin"; end if;
          t := Cputime ();
          T := [D[i]: i in bin];
          standard, maps := MyStandard (T);
-         "Time to standardise bin of size ", #bin, " is ", Cputime (t);
+         if Verbose then "Time to standardise bin of size ", #bin, " is ", Cputime (t); end if;
          total +:= Cputime (t);
          assert #{SmallGroupEncoding (x): x in standard} eq 1;
          use_standard_maps := true;
@@ -333,7 +334,7 @@ total := 0;
          if k in used then continue a; end if;
 
          G1 := D[k];
-         "k = ", k;
+         if Verbose then "k = ", k; end if;
 
          // id, permid := GroupIds (G1[1]`transgroup);
 
@@ -364,21 +365,21 @@ total := 0;
 
          if #equivclass gt 0 then
             Append (~classes, <s,equivclass>);
-            "new equivalence class has length ", #equivclass;
-            "# of used groups so far is ", #used;
-            "# of equivalence classes so far is ", #classes;
+            if Verbose then "new equivalence class has length ", #equivclass; end if;
+            if Verbose then "# of used groups so far is ", #used; end if;
+            if Verbose then "# of equivalence classes so far is ", #classes; end if;
          end if;
       end for;
    end for;
 
-   "Total time in Standard is ", total;
+   if Verbose then "Total time in Standard is ", total; end if;
 
-   "Number of equivalence classes is ", #classes;
+   if Verbose then "Number of equivalence classes is ", #classes; end if;
    return classes;
 end function;
 //======================================================================
 //======================================================================
-NumOfType := function (EquivClass,n)
+NumOfType := function (EquivClass,n: Verbose := false)
    oEC:=#EquivClass;
    HGS_Sbracoid_list := [**];
    
@@ -438,14 +439,14 @@ end function;
    - whether G corresponds to a HGS admitting bijective correspondence
    - the identifier i such that N=SmallGroup(n,i) is the type admitted by G
 */
-Data := function (n)
+Data := function (n: Verbose := false)
    id := 1;
    Z := [];
    for i in [1..NumberOfSmallGroups(n)] do
       TS,N,hol,id := TransSubs(n,i,id);
       for k in [1..#TS] do
          G := TS[k];
-         stabs, ordaut, props := TransGroup(G,N,hol);
+         stabs, ordaut, props := TransGroup(G,N,hol: Verbose := Verbose);
          G`Stabs := stabs;
          G`Ordaut := ordaut;
          G`Props := props;
@@ -456,15 +457,15 @@ Data := function (n)
 end function;
   
 //sorts the transitive subgroups into permutation isomorphism classes
-TransEquivalenceClasses := function (n)
+TransEquivalenceClasses := function (n: Verbose := false)
     
-    D := Data (n);
+    D := Data (n: Verbose := Verbose);
     ords := {G`Order : G in D};
-    "ords is ", ords;
+    if Verbose then "ords is ", ords; end if;
     
     Z1 := [];
     for d in ords do
-       Z1 := Z1 cat TransEquiv([G : G in D | G`Order eq d]);
+       Z1 := Z1 cat TransEquiv([G : G in D | G`Order eq d]: Verbose := Verbose);
     end for;
     
     Z2 := [];
@@ -478,8 +479,8 @@ TransEquivalenceClasses := function (n)
 end function;
   
 //MAIN function, returns a database of HGSs & SBs of degree n with attached data
-NumAll := function (n)
-   TE,Groups := TransEquivalenceClasses (n);
+NumAll := function (n: Verbose := false)
+   TE,Groups := TransEquivalenceClasses (n: Verbose := Verbose);
    
    X := [];
    for r in TE do
@@ -489,11 +490,11 @@ NumAll := function (n)
          G := Groups[j];
          Append(~EquivClass,<G`Type,G`Length,G`Ordaut,G`Props,j>);
       end for;
-      EC,HGS_SB := NumOfType(EquivClass,n);
+      EC,HGS_SB := NumOfType(EquivClass,n: Verbose := Verbose);
       Append(~X,<r[1],EC,[x : x in HGS_SB]>);
    end for;
    delete TE;
-   "# of X is ", #X, "\n";
+   if Verbose then "# of X is ", #X, "\n"; end if;
    
    RESULTS := "Results-" cat IntegerToString (n);
    GROUPS := "Grps-" cat IntegerToString (n);
