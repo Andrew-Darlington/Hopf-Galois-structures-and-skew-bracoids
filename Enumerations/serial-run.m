@@ -37,14 +37,14 @@ MyGeneratingSet := function (G, A: Limit := 2, Max := 5)
    return A, P;
 end function;
 
-NumOfAutomorphisms := function (G) 
+NumOfAutomorphisms := function (G: Verbose := false) 
    A := AutomorphismGroup (G: UsePCGroup := true);
    A, P := MyGeneratingSet (G, A);
    ng := Ngens (A);
-   "Number of generators of A is now ", ng;
+   if Verbose then "Number of generators of A is now ", ng; end if;
    
    S0 := Stabiliser (G, 1);
-   "Size of stabiliser is ", #S0;
+   if Verbose then "Size of stabiliser is ", #S0; end if;
    Gprime_keys := {@ CanonicalInvariant (S0) @};
    perms := [[] : i in [1..ng]];
 
@@ -58,7 +58,7 @@ NumOfAutomorphisms := function (G)
          if pos eq 0 then
             Include (~Gprime_keys, key);
             if #Gprime_keys mod 10000 eq 0 then 
-               "j, #Gprime ", j, #Gprime_keys;
+               if Verbose then "j, #Gprime ", j, #Gprime_keys; end if;
             end if;
             Include (~Gprime_keys, key);
             pos := #Gprime_keys;
@@ -68,7 +68,7 @@ NumOfAutomorphisms := function (G)
       j +:= 1;
    end while;
 
-   "Size of class is ", #Gprime_keys;
+   if Verbose then "Size of class is ", #Gprime_keys; end if;
    pgp := sub<Sym (#Gprime_keys) | [perms[i]: i in [1..ng]]>;
    perm_elts := [pgp!perms[i] : i in [1..ng]];
 
@@ -77,13 +77,13 @@ NumOfAutomorphisms := function (G)
    return #Q;
 end function;
 
-TestGroup := function (params) 
+TestGroup := function (params: Verbose := false) 
    G := params[1];
    len := params[2];
    N := params[3];
    hol := params[4];
    intfields := #IntermediateSubgroups (G, Stabiliser (G, 1)) + 2;
-   "intfields is ", intfields;
+   if Verbose then "intfields is ", intfields; end if;
    hgs1 := 0;
    hgs2 := 0;
    hgs3 := 0;
@@ -115,7 +115,7 @@ TestGroup := function (params)
          end if;
       end if;
    else
-      time a := NumOfAutomorphisms (G);
+      a := NumOfAutomorphisms (G: Verbose := Verbose);
       s := (a*(len))/(ohol/n);
       hgs1 := hgs1+s;
       sb1 := sb1+1;
@@ -131,24 +131,25 @@ TestGroup := function (params)
 end function;
 
 // set these parameters to process SmallGroup (order, nmr)
+Verbose := false;
 order := 8;
 nmr := 3;
 
-"\n\n Process group ", nmr;
+"\n\nProcess group ", nmr;
 N := SmallGroup (order, nmr);
 n := Order (N);
 hol, f := Holomorph (N);
 N := f(N);
-"Order hol ", #hol;
-"compute subgroups";
+if Verbose then "Order hol ", #hol; end if;
+if Verbose then "compute subgroups"; end if;
 t := Subgroups (hol: OrderMultipleOf := n, IsTransitive:=true);
 I := [<x`subgroup, x`length, N, hol>: x in t];
 //here we sum by multiplying out by the sizes of the conjugacy classes.
-"# of subgroups is ", #I;
+if Verbose then "# of subgroups is ", #I; end if;
 
 Z := [];
 for  i in [1..#I] do 
-   Z[i] := TestGroup (I[i]);
+   Z[i] := TestGroup (I[i]: Verbose := Verbose);
 end for;
 
 L := [z: z in Z];
