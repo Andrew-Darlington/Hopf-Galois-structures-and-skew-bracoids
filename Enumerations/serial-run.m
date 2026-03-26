@@ -130,36 +130,36 @@ TestGroup := function (params: Verbose := false)
    return [hgs1, hgs2, hgs3, hgs4, sb1, sb2, sb3];
 end function;
 
-// set these parameters to process SmallGroup (order, nmr)
-Verbose := false;
-order := 8;
-nmr := 3;
-
-"\n\nProcess group ", nmr;
-N := SmallGroup (order, nmr);
-n := Order (N);
-hol, f := Holomorph (N);
-N := f(N);
-if Verbose then "Order hol ", #hol; end if;
-if Verbose then "compute subgroups"; end if;
-t := Subgroups (hol: OrderMultipleOf := n, IsTransitive:=true);
-I := [<x`subgroup, x`length, N, hol>: x in t];
-//here we sum by multiplying out by the sizes of the conjugacy classes.
-if Verbose then "# of subgroups is ", #I; end if;
-
-Z := [];
-for  i in [1..#I] do 
-   Z[i] := TestGroup (I[i]: Verbose := Verbose);
-end for;
-
-L := [z: z in Z];
-
-r1 := &+[L[i][1]: i in [1..#L]];
-r2 := &+[L[i][2]: i in [1..#L]];
-r3 := &+[L[i][3]: i in [1..#L]];
-r4 := &+[L[i][4]: i in [1..#L]];
-r5 := &+[L[i][5]: i in [1..#L]];
-r6 := &+[L[i][6]: i in [1..#L]];
-r7 := &+[L[i][7]: i in [1..#L]];
-results := [r1, r2, r3, r4, r5, r6, r7];
-"Results for group", order, "#", nmr, " are :", results;
+// process SmallGroup (order, nmr)
+ProcessGroup := function (order, nmr: Verbose := false);
+   if Verbose then "\nProcess group ", order, "#", nmr; end if;
+   N := SmallGroup (order, nmr);
+   n := Order (N);
+   hol, f := Holomorph (N);
+   N := f(N);
+   if Verbose then "Order hol ", #hol; end if;
+   if Verbose then "compute subgroups"; end if;
+   t := Subgroups (hol: OrderMultipleOf := n, IsTransitive:=true);
+   I := [<x`subgroup, x`length, N, hol>: x in t];
+   //here we sum by multiplying out by the sizes of the conjugacy classes.
+   if Verbose then "# of subgroups is ", #I; end if;
+   
+   Z := [];
+   for  i in [1..#I] do 
+      Z[i] := TestGroup (I[i]: Verbose := Verbose);
+   end for;
+   
+   L := [z: z in Z];
+   
+   r1 := &+[L[i][1]: i in [1..#L]];
+   r2 := &+[L[i][2]: i in [1..#L]];
+   r3 := &+[L[i][3]: i in [1..#L]];
+   r4 := &+[L[i][4]: i in [1..#L]];
+   r5 := &+[L[i][5]: i in [1..#L]];
+   r6 := &+[L[i][6]: i in [1..#L]];
+   r7 := &+[L[i][7]: i in [1..#L]];
+   results := [r1, r2, r3, r4, r5, r6, r7];
+   if Verbose then "Results for group", order, "#", nmr, " are :", results; end if;
+   
+   return results;
+end function;
