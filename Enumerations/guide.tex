@@ -47,6 +47,10 @@ Authors: Andrew Darlington and E.A.\ O'Brien
     \item \texttt{reports/} --- contains summary reports from all results files mentioned above.
 \end{itemize}
 
+The {\tt computed-data} directory contains two subdirectories: 
+{\tt report} and {\tt results}. The information stored in these subdirectories
+matches that for their analogues discussed below. 
+
 \section*{2. Setup and configuration}
 
 Our code assumes that you use the manager/worker environment provided by Magma; see the following online documentation:
@@ -105,11 +109,20 @@ To generate a summary for an individual order $n$ after running \texttt{./script
 python3 extract_magma_logs.py
 \end{lstlisting}
 
-This collects data from \texttt{logs/manager*.log} and generates \texttt{reports/Report-n.txt}, in the same format as the files currently in \texttt{reports/}.
+This collects data from \texttt{logs/manager*.log} and generates 
+\texttt{reports/Report-n.txt}, 
+in the same format as the 
+files in \texttt{computed-data/reports}.
 
 \section*{6. Processing results}
 
-The data for the groups of order $n$ is recorded in \texttt{results/Result-n}. This can be summarised by editing \texttt{process-results.m} to list the relevant values of $n$, then running:
+The data for the groups of order $n$ is recorded in 
+\texttt{results/Results-n}
+in the same format as the 
+files in \texttt{computed-data/results}.
+
+
+This can be summarised by editing \texttt{process-results.m} to list the relevant values of $n$, then running:
 
 \begin{lstlisting}
 % magma process-results.m 
