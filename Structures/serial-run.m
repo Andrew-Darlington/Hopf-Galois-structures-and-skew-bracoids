@@ -478,7 +478,9 @@ TransEquivalenceClasses := function (n: Verbose := false)
    return Z1,Z2;
 end function;
   
-//MAIN function, returns a database of HGSs & SBs of degree n with attached data
+// MAIN function: return structure data for degree n and complete list 
+// of the transitive subgroups of Hol(N) for all groups N of order n
+
 NumAll := function (n: Verbose := false)
    TE,Groups := TransEquivalenceClasses (n: Verbose := Verbose);
    
@@ -498,8 +500,10 @@ NumAll := function (n: Verbose := false)
    
    RESULTS := "Results-" cat IntegerToString (n);
    GROUPS := "Grps-" cat IntegerToString (n);
-   
-   return X;
+   PrintFileMagma ("results/" cat RESULTS, X);
+   PrintFileMagma ("results/transgrps/" cat GROUPS, Groups);
+
+   return X, Groups;
 end function;
 
 /*
@@ -508,6 +512,5 @@ for n in [2..100] do
    "\nProcess order n = ", n;
    L := NumAll (n);
    System ("rm -rf logs/worker*-*.log");
-//   System ("rm -r logs/manager*-*.log");
 end for;
 */
