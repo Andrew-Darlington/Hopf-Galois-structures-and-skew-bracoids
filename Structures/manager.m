@@ -168,6 +168,5 @@ for n in [2..100] do
    "\nProcess order n = ", n;
    L := NumAll (n);
    System ("rm -rf logs/worker*-*.log");
-//   System ("rm -r logs/manager*-*.log");
 end for;
 */
