@@ -15,7 +15,7 @@
 	morecomment=[l]{//},
 }
 
-\title{The data stored in \texttt{results} directory}
+\title{The data stored in \texttt{computed-data} directory}
 \date{}
 
 \begin{document}
@@ -24,12 +24,13 @@
 	
 	For a given integer $n$, two files are stored.
 	\begin{itemize}
-		\item \texttt{Grps-n} is stored in \texttt{results/transgrps}. It contains a
+		\item \texttt{Grps-n} is stored in the subdirectory 
+\texttt{transgrps}. It contains a
 		complete list of the transitive subgroups of $\mathrm{Hol}(N)$ for all groups $N$
 		of order $n$.
 		
-		\item \texttt{Results-n} is stored in \texttt{results}. It describes the equivalence
-		classes of these transitive subgroups and records the number of corresponding
+\item \texttt{Results-n} describes the equivalence
+classes of these transitive subgroups and records the number of corresponding
 		structures.
 	\end{itemize}
 	
@@ -93,7 +94,7 @@ those transitive
 	We record one illustrative example.
 	
 	\begin{lstlisting}
-> X := eval Read ("results/TransGrps/Grps-8");
+> X := eval Read ("computed-data/transgrps/Grps-8");
 
 > // Holomorphs of all five groups of order 8 contain 148 conjugacy classes of transitive subgroups
 
@@ -101,7 +102,7 @@ those transitive
 
 148
 
-> Y := eval Read ("results/Results-8");
+> Y := eval Read ("computed-data/Results-8");
 
 > // there are 35 equivalence classes
 
@@ -111,12 +112,12 @@ those transitive
 
 > // one equivalence class
 
-> C := Y[29];
+> C := Y[28];
 
 > C;
 
 <8, false, [
-<3, [ 73, 76 ], [ 73, 76 ], [ 73 ], 2, 2, 2, 1, 2, 1>,
+<3, [ 72, 73 ], [ 72, 73 ], [ 73 ], 2, 2, 2, 1, 2, 1>,
 <4, [ 102, 104 ], [ 102, 104 ], [ 102 ], 6, 2, 2, 1, 2, 1>
 ]>
 \end{lstlisting}
@@ -135,7 +136,7 @@ those transitive
 		
 		\item 
 		Two conjugacy classes of transitive subgroups of $\mathrm{Hol}(N_1)$ 
-		contribute to $C$; representatives are $X[73]$ and $X[76]$; the 
+		contribute to $C$; representatives are $X[72]$ and $X[73]$; the 
 		number of subgroups in these classes is 2. 
 		
 		\item 
@@ -143,9 +144,9 @@ those transitive
 		contribute to $C$; representatives  are $X[102]$ and $X[104]$; 
 		the number of subgroups in these classes is 6. 
 		
-		\item Let $L/K$ be a separable extension associated to $C$. Then $L/K$ admits 2 Hopf--Galois structures of type $N_1$, corresponding to the transitive subgroups $X[73]$ and $X[76]$, and 2 Hopf--Galois structures of type $N_2$, corresponding to the transitive subgroups $X[102]$ and $X[104]$. All such Hopf--Galois structures admit a bijective correspondence, while only the structures associated to $X[73]$ and $X[104]$ are almost classically Galois.
+		\item Let $L/K$ be a separable extension associated to $C$. Then $L/K$ admits 2 Hopf--Galois structures of type $N_1$, corresponding to the transitive subgroups $X[72]$ and $X[73]$, and 2 Hopf--Galois structures of type $N_2$, corresponding to the transitive subgroups $X[102]$ and $X[104]$. All such Hopf--Galois structures admit a bijective correspondence, while only the structures associated to $X[72]$ and $X[104]$ are almost classically Galois.
 		
-		\item For $1 \leq i \leq 4$, there are actions $\odot_i$ such that the triples $(X[73],N_1,\odot_1)$, $(X[76],N_1,\odot_2)$, $(X[102],N_2,\odot_3)$ and $(X[104],N_2,\odot_4)$ each represent equivalence classes of skew bracoids (in particular, two classes have type $N_1$ and two classes have type $N_2$). The bracoids $(X[73],N_1,\odot_1)$ and $(X[102],N_2,\odot_3)$ are almost classical. Note that the stabilisers of the actions are pairwise isomorphic.
+		\item For $1 \leq i \leq 4$, there are actions $\odot_i$ such that the triples $(X[72],N_1,\odot_1)$, $(X[73],N_1,\odot_2)$, $(X[102],N_2,\odot_3)$ and $(X[104],N_2,\odot_4)$ each represent equivalence classes of skew bracoids (in particular, two classes have type $N_1$ and two classes have type $N_2$). The bracoids $(X[72],N_1,\odot_1)$ and $(X[102],N_2,\odot_3)$ are almost classical. Note that the stabilisers of the actions are pairwise isomorphic.
 		
 	\end{itemize}
 	
