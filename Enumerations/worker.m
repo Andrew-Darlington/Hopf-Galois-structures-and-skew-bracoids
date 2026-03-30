@@ -127,20 +127,6 @@ TestGroup := function (params)
    return [hgs1, hgs2, hgs3, hgs4, sb1, sb2, sb3];
 end function;
 
-// debug code by listing all commands for given worker
-DebugTest := function (params)
-"*** Beginning of input"; 
-A, B := GetSeed ();
-command1 := "SetSeed (" cat IntegerToString(A) cat "," cat IntegerToString(B) cat ");";
-command1;
-"params := ";
-params:Magma;
-";";
-"R := TestGroup (params);";
-"*** End of input";
-return TestGroup (params);
-end function;
- 
 // needs to be same as for manager
 host :="host.name";
 port := 10000;
