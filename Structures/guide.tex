@@ -26,7 +26,7 @@ This directory contains material related to the classification of structures alg
 \section*{Directory Structure}
 
 \begin{itemize}
-    \item Files in the top-level directory include the Magma scripts \texttt{manager.m}, \texttt{workerA/B/C/D.m} and \texttt{attributes.m}.
+    \item Files in the top-level directory include the Magma scripts \texttt{manager.m}, \texttt{workerA/B/C/D.m} and \texttt{attributes.m} and the two shell scripts \texttt{delete-jobs} and \texttt{replace}.
 
     \item \texttt{computed-data/} contains \texttt{transgrps} directory, results files from structure classification of degrees 2--100, excluding 32, 48, 64, 80, 81 and 96, and a \texttt{Timings.log} file with the execution times of the computations.
 
@@ -43,7 +43,7 @@ For a guide to the data in {\tt computed-data}, see:
 
 \subsection*{1. Setup}
 
-See the \texttt{README.md} file in \texttt{Enumerations} for comment on the manager/worker environment used by Magma. Ensure the host name and ports are set correctly in the manager and worker files, and set the number of workers in \texttt{manager.m}.
+See the \texttt{guide.pdf} file in \texttt{Enumerations} for comment on the manager/worker environment used by Magma. Ensure the host name and ports are set correctly in the manager and worker files, and set the number of workers in \texttt{manager.m}.
 
 \subsection*{2. Running the main script}
 
