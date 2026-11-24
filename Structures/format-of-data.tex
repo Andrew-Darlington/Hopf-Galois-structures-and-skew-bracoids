@@ -42,7 +42,7 @@ classes of these transitive subgroups and records the number of corresponding
 < a,  bool,
 [
 // may be multiple entries of this type for different values of m
-[ <m, [ b ], [ c ], [ d ], e, f, g, h, i, j>
+[ <m, [ b ], [ c ], [ d ], [ d' ], e, f, g, h, i, j>
 ...
 ] 
 >;
@@ -65,7 +65,7 @@ classes of these transitive subgroups and records the number of corresponding
 	$m \in [1\,..\,\mathtt{NumberOfSmallGroups}(n)]$.
 	If transitive subgroups of $\mathrm{Hol}(N)$ contribute to $C$, 
 	then the sequence $C[3]$ has an entry 
-	$$\langle m,\,[b],\,[c],\,[d],\,e,\,f,\,g,\,h,\,i,\,j\rangle.$$
+	$$\langle m,\,[b],\,[c],\,[d],\,[d'],\, e,\,f,\,g,\,h,\,i,\,j\rangle.$$
 	Its contents are the following.
 	\begin{itemize}
 		\item The sequence $[b]$ records the index positions in the sequence $X$ of these
@@ -77,7 +77,19 @@ classes of these transitive subgroups and records the number of corresponding
 		
 		\item The sequence $[d]$ records the index positions in $X$ of 
 those transitive 
-		subgroups which correspond to almost classical structures.
+		subgroups which correspond to  almost classically Galois 
+		Hopf--Galois structures: namely, those containing the image 
+		$\rho(N)$ of the right regular representation of $N$.
+
+		\item The sequence $[d']$ records the index positions in $X$ of 
+		those transitive subgroups which correspond to almost classical 
+		skew bracoids: namely, those containing the image $\lambda(N)$ of 
+		the left regular representation of $N$.
+		If $N$ is abelian, then $\lambda(N)=\rho(N)$ and $[d]=[d']$. 
+		If $N$ is nonabelian, then $[d]$ and $[d']$ may differ, but they 
+		always have the same length: the inversion map on $N$ 
+		interchanges $\lambda(N)$ and $\rho(N)$ and normalises 
+		$\mathrm{Hol}(N)$. 
 		
 		\item $e$ = the number of subgroups (counting conjugacy) contributed 
 		by $N$. (If we sum the values of $e$ for all $N$ contributing 
@@ -117,8 +129,8 @@ those transitive
 > C;
 
 <8, false, [
-<3, [ 72, 73 ], [ 72, 73 ], [ 73 ], 2, 2, 2, 1, 2, 1>,
-<4, [ 102, 104 ], [ 102, 104 ], [ 102 ], 6, 2, 2, 1, 2, 1>
+<3, [ 72, 73 ], [ 72, 73 ], [ 73 ], [ 72 ], 2, 2, 2, 1, 2, 1>,
+<4, [ 102, 104 ], [ 102, 104 ], [ 102 ], [ 104 ], 6, 2, 2, 1, 2, 1>
 ]>
 \end{lstlisting}
 	From this data, we deduce the following.
@@ -144,9 +156,9 @@ those transitive
 		contribute to $C$; representatives  are $X[102]$ and $X[104]$; 
 		the number of subgroups in these classes is 6. 
 		
-		\item Let $L/K$ be a separable extension associated to $C$. Then $L/K$ admits 2 Hopf--Galois structures of type $N_1$, corresponding to the transitive subgroups $X[72]$ and $X[73]$, and 2 Hopf--Galois structures of type $N_2$, corresponding to the transitive subgroups $X[102]$ and $X[104]$. All such Hopf--Galois structures admit a bijective correspondence, while only the structures associated to $X[72]$ and $X[104]$ are almost classically Galois.
+		\item Let $L/K$ be a separable extension associated to $C$. Then $L/K$ admits 2 Hopf--Galois structures of type $N_1$, corresponding to the transitive subgroups $X[72]$ and $X[73]$, and 2 Hopf--Galois structures of type $N_2$, corresponding to the transitive subgroups $X[102]$ and $X[104]$. All such Hopf--Galois structures admit a bijective correspondence, while only the structures associated to  $X[73]$ and $X[102]$  are almost classically Galois.
 		
-		\item For $1 \leq i \leq 4$, there are actions $\odot_i$ such that the triples $(X[72],N_1,\odot_1)$, $(X[73],N_1,\odot_2)$, $(X[102],N_2,\odot_3)$ and $(X[104],N_2,\odot_4)$ each represent equivalence classes of skew bracoids (in particular, two classes have type $N_1$ and two classes have type $N_2$). The bracoids $(X[72],N_1,\odot_1)$ and $(X[102],N_2,\odot_3)$ are almost classical. Note that the stabilisers of the actions are pairwise isomorphic.
+		\item For $1 \leq i \leq 4$, there are actions $\odot_i$ such that the triples $(X[72],N_1,\odot_1)$, $(X[73],N_1,\odot_2)$, $(X[102],N_2,\odot_3)$ and $(X[104],N_2,\odot_4)$ each represent equivalence classes of skew bracoids (in particular, two classes have type $N_1$ and two classes have type $N_2$). The bracoids $(X[72],N_1,\odot_1)$ and  $(X[104],N_2,\odot_4)$  are almost classical. Note that the stabilisers of the actions are pairwise isomorphic.
 		
 	\end{itemize}
 	

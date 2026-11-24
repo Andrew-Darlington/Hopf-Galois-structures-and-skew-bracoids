@@ -1,426 +1,443 @@
 [ car<IntegerRing(), Booleans(), PowerSequence(car<IntegerRing(), 
     PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-    PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
-    RationalField(), RationalField(), IntegerRing(), IntegerRing()>)> |
+    PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), IntegerRing(), 
+    RationalField(), RationalField(), RationalField(), IntegerRing(), 
+    IntegerRing()>)> |
     <33, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 29, 30 ], \[ 30 ], \[ 30 ], 2, 2, 1, 1, 2, 1>,
-        <2, \[ 89, 91 ], \[], \[], 10, 6, 0, 0, 2, 0>,
-        <3, \[ 179, 180, 181, 190 ], \[ 180 ], \[ 180 ], 20, 4, 1, 1, 4, 1>,
-        <4, \[ 298 ], \[], \[], 1, 3, 0, 0, 1, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 29, 30 ], \[ 30 ], \[ 30 ], \[ 29 ], 2, 2, 1, 1, 2, 1>,
+        <2, \[ 89, 91 ], \[], \[], \[], 10, 6, 0, 0, 2, 0>,
+        <3, \[ 179, 180, 181, 190 ], \[ 180 ], \[ 180 ], \[ 190 ], 20, 4, 1, 1, 
+        4, 1>,
+        <4, \[ 298 ], \[], \[], \[], 1, 3, 0, 0, 1, 0>
     ]>,
     <77, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 31, 34 ], \[ 34 ], \[], 6, 2, 1, 0, 2, 0>,
-        <2, \[ 86, 90 ], \[ 86 ], \[], 10, 2, 1, 0, 2, 0>,
-        <3, \[ 178, 183, 187, 192 ], \[ 187 ], \[], 60, 4, 1, 0, 4, 0>,
-        <4, \[ 300 ], \[ 300 ], \[], 1, 1, 1, 0, 1, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 31, 34 ], \[ 34 ], \[], \[], 6, 2, 1, 0, 2, 0>,
+        <2, \[ 86, 90 ], \[ 86 ], \[], \[], 10, 2, 1, 0, 2, 0>,
+        <3, \[ 178, 183, 187, 192 ], \[ 187 ], \[], \[], 60, 4, 1, 0, 4, 0>,
+        <4, \[ 300 ], \[ 300 ], \[], \[], 1, 1, 1, 0, 1, 0>
     ]>,
     <77, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 32, 37 ], \[ 32 ], \[ 32 ], 6, 2, 1, 1, 2, 1>,
-        <2, \[ 87, 88 ], \[ 88 ], \[], 10, 2, 1, 0, 2, 0>,
-        <3, \[ 174, 175, 176, 189 ], \[ 176 ], \[ 176 ], 60, 4, 1, 1, 4, 1>,
-        <4, \[ 299 ], \[ 299 ], \[], 1, 1, 1, 0, 1, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 32, 37 ], \[ 32 ], \[ 32 ], \[ 37 ], 6, 2, 1, 1, 2, 1>,
+        <2, \[ 87, 88 ], \[ 88 ], \[], \[], 10, 2, 1, 0, 2, 0>,
+        <3, \[ 174, 175, 176, 189 ], \[ 176 ], \[ 176 ], \[ 175 ], 60, 4, 1, 1, 
+        4, 1>,
+        <4, \[ 299 ], \[ 299 ], \[], \[], 1, 1, 1, 0, 1, 0>
     ]>,
     <77, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 33, 36 ], \[ 36 ], \[], 6, 2, 1, 0, 2, 0>,
-        <2, \[ 83, 93 ], \[ 93 ], \[ 93 ], 10, 2, 1, 1, 2, 1>,
-        <3, \[ 171, 172, 177, 186 ], \[ 172 ], \[], 60, 4, 1, 0, 4, 0>,
-        <4, \[ 302 ], \[ 302 ], \[ 302 ], 1, 1, 1, 1, 1, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 33, 36 ], \[ 36 ], \[], \[], 6, 2, 1, 0, 2, 0>,
+        <2, \[ 83, 93 ], \[ 93 ], \[ 93 ], \[ 83 ], 10, 2, 1, 1, 2, 1>,
+        <3, \[ 171, 172, 177, 186 ], \[ 172 ], \[], \[], 60, 4, 1, 0, 4, 0>,
+        <4, \[ 302 ], \[ 302 ], \[ 302 ], \[ 302 ], 1, 1, 1, 1, 1, 1>
     ]>,
     <77, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 35, 38 ], \[ 38 ], \[], 6, 2, 1, 0, 2, 0>,
-        <2, \[ 82, 84 ], \[ 82 ], \[ 82 ], 10, 2, 1, 1, 2, 1>,
-        <3, \[ 173, 182, 184, 188 ], \[ 182 ], \[], 60, 4, 1, 0, 4, 0>,
-        <4, \[ 303 ], \[ 303 ], \[ 303 ], 1, 1, 1, 1, 1, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 35, 38 ], \[ 38 ], \[], \[], 6, 2, 1, 0, 2, 0>,
+        <2, \[ 82, 84 ], \[ 82 ], \[ 82 ], \[ 84 ], 10, 2, 1, 1, 2, 1>,
+        <3, \[ 173, 182, 184, 188 ], \[ 182 ], \[], \[], 60, 4, 1, 0, 4, 0>,
+        <4, \[ 303 ], \[ 303 ], \[ 303 ], \[ 303 ], 1, 1, 1, 1, 1, 1>
     ]>,
     <77, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 39, 40 ], \[ 39 ], \[ 39 ], 6, 2, 1, 1, 2, 1>,
-        <2, \[ 85, 92 ], \[ 85 ], \[ 85 ], 10, 2, 1, 1, 2, 1>,
-        <3, \[ 185, 191, 193, 194 ], \[ 191 ], \[ 191 ], 60, 4, 1, 1, 4, 1>,
-        <4, \[ 301 ], \[ 301 ], \[ 301 ], 1, 1, 1, 1, 1, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 39, 40 ], \[ 39 ], \[ 39 ], \[ 40 ], 6, 2, 1, 1, 2, 1>,
+        <2, \[ 85, 92 ], \[ 85 ], \[ 85 ], \[ 92 ], 10, 2, 1, 1, 2, 1>,
+        <3, \[ 185, 191, 193, 194 ], \[ 191 ], \[ 191 ], \[ 193 ], 60, 4, 1, 1, 
+        4, 1>,
+        <4, \[ 301 ], \[ 301 ], \[ 301 ], \[ 301 ], 1, 1, 1, 1, 1, 1>
     ]>,
     <77, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 49, 50 ], \[ 50 ], \[ 50 ], 6, 2, 1, 1, 2, 1>,
-        <2, \[ 98, 99 ], \[ 99 ], \[ 99 ], 10, 2, 1, 1, 2, 1>,
-        <3, \[ 219, 220, 221, 222 ], \[ 219 ], \[ 219 ], 60, 4, 1, 1, 4, 1>,
-        <4, \[ 304 ], \[ 304 ], \[ 304 ], 1, 1, 1, 1, 1, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 49, 50 ], \[ 50 ], \[ 50 ], \[ 49 ], 6, 2, 1, 1, 2, 1>,
+        <2, \[ 98, 99 ], \[ 99 ], \[ 99 ], \[ 98 ], 10, 2, 1, 1, 2, 1>,
+        <3, \[ 219, 220, 221, 222 ], \[ 219 ], \[ 219 ], \[ 220 ], 60, 4, 1, 1, 
+        4, 1>,
+        <4, \[ 304 ], \[ 304 ], \[ 304 ], \[ 304 ], 1, 1, 1, 1, 1, 1>
     ]>,
     <11, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 51 ], \[ 51 ], \[], 1, 2, 2, 0, 1, 0>,
-        <3, \[ 244, 248 ], \[ 244 ], \[], 10, 4, 2, 0, 2, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 51 ], \[ 51 ], \[], \[], 1, 2, 2, 0, 1, 0>,
+        <3, \[ 244, 248 ], \[ 244 ], \[], \[], 10, 4, 2, 0, 2, 0>
     ]>,
     <22, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 52, 53 ], \[ 52, 53 ], \[ 53 ], 2, 2, 2, 1, 2, 1>,
-        <3, \[ 245, 246, 247, 250 ], \[ 246, 247 ], \[ 247 ], 20, 4, 2, 1, 4, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 52, 53 ], \[ 52, 53 ], \[ 53 ], \[ 52 ], 2, 2, 2, 1, 2, 1>,
+        <3, \[ 245, 246, 247, 250 ], \[ 246, 247 ], \[ 247 ], \[ 245 ], 20, 4, 
+        2, 1, 4, 1>
     ]>,
     <11, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 54 ], \[ 54 ], \[ 54 ], 1, 2, 2, 2, 1, 1>,
-        <3, \[ 240, 241 ], \[ 240 ], \[ 240 ], 10, 4, 2, 2, 2, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 54 ], \[ 54 ], \[ 54 ], \[ 54 ], 1, 2, 2, 2, 1, 1>,
+        <3, \[ 240, 241 ], \[ 240 ], \[ 240 ], \[ 241 ], 10, 4, 2, 2, 2, 1>
     ]>,
     <22, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 55, 56 ], \[ 55, 56 ], \[ 55 ], 2, 2, 2, 1, 2, 1>,
-        <3, \[ 239, 242, 243, 249 ], \[ 239, 242 ], \[ 239 ], 20, 4, 2, 1, 4, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 55, 56 ], \[ 55, 56 ], \[ 55 ], \[ 56 ], 2, 2, 2, 1, 2, 1>,
+        <3, \[ 239, 242, 243, 249 ], \[ 239, 242 ], \[ 239 ], \[ 249 ], 20, 4, 
+        2, 1, 4, 1>
     ]>,
     <6, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 25, 28 ], \[], \[], 2, 10, 0, 0, 2, 0>,
-        <3, \[ 163, 165, 166, 168 ], \[ 163, 166 ], \[ 163 ], 4, 4, 2, 1, 4, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 25, 28 ], \[], \[], \[], 2, 10, 0, 0, 2, 0>,
+        <3, \[ 163, 165, 166, 168 ], \[ 163, 166 ], \[ 163 ], \[ 168 ], 4, 4, 2,
+        1, 4, 1>
     ]>,
     <22, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 26, 27 ], \[ 26, 27 ], \[ 26 ], 2, 2, 2, 1, 2, 1>,
-        <3, \[ 164, 167, 169, 170 ], \[ 167, 170 ], \[], 20, 4, 2, 0, 4, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 26, 27 ], \[ 26, 27 ], \[ 26 ], \[ 27 ], 2, 2, 2, 1, 2, 1>,
+        <3, \[ 164, 167, 169, 170 ], \[ 167, 170 ], \[], \[], 20, 4, 2, 0, 4, 0>
     ]>,
     <7, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <2, \[ 108 ], \[ 108 ], \[], 1, 2, 2, 0, 1, 0>,
-        <3, \[ 260, 265 ], \[ 265 ], \[ 265 ], 6, 4, 2, 2, 2, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <2, \[ 108 ], \[ 108 ], \[], \[], 1, 2, 2, 0, 1, 0>,
+        <3, \[ 260, 265 ], \[ 265 ], \[ 265 ], \[ 260 ], 6, 4, 2, 2, 2, 1>
     ]>,
     <3, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <2, \[ 109 ], \[], \[], 1, 6, 0, 0, 1, 0>,
-        <3, \[ 255, 257 ], \[ 255 ], \[ 255 ], 2, 4, 2, 2, 2, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <2, \[ 109 ], \[], \[], \[], 1, 6, 0, 0, 1, 0>,
+        <3, \[ 255, 257 ], \[ 255 ], \[ 255 ], \[ 257 ], 2, 4, 2, 2, 2, 1>
     ]>,
     <7, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <2, \[ 110 ], \[ 110 ], \[ 110 ], 1, 2, 2, 2, 1, 1>,
-        <3, \[ 256, 263 ], \[ 256 ], \[ 256 ], 6, 4, 2, 2, 2, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <2, \[ 110 ], \[ 110 ], \[ 110 ], \[ 110 ], 1, 2, 2, 2, 1, 1>,
+        <3, \[ 256, 263 ], \[ 256 ], \[ 256 ], \[ 263 ], 6, 4, 2, 2, 2, 1>
     ]>,
     <7, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <2, \[ 111 ], \[ 111 ], \[ 111 ], 1, 2, 2, 2, 1, 1>,
-        <3, \[ 262, 266 ], \[ 262 ], \[], 6, 4, 2, 0, 2, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <2, \[ 111 ], \[ 111 ], \[ 111 ], \[ 111 ], 1, 2, 2, 2, 1, 1>,
+        <3, \[ 262, 266 ], \[ 262 ], \[], \[], 6, 4, 2, 0, 2, 0>
     ]>,
     <7, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <2, \[ 112 ], \[ 112 ], \[ 112 ], 1, 2, 2, 2, 1, 1>,
-        <3, \[ 258, 264 ], \[ 258 ], \[], 6, 4, 2, 0, 2, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <2, \[ 112 ], \[ 112 ], \[ 112 ], \[ 112 ], 1, 2, 2, 2, 1, 1>,
+        <3, \[ 258, 264 ], \[ 258 ], \[], \[], 6, 4, 2, 0, 2, 0>
     ]>,
     <7, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <2, \[ 113 ], \[ 113 ], \[], 1, 2, 2, 0, 1, 0>,
-        <3, \[ 259, 261 ], \[ 259 ], \[], 6, 4, 2, 0, 2, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <2, \[ 113 ], \[ 113 ], \[], \[], 1, 2, 2, 0, 1, 0>,
+        <3, \[ 259, 261 ], \[ 259 ], \[], \[], 6, 4, 2, 0, 2, 0>
     ]>,
     <11, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 57 ], \[ 57 ], \[ 57 ], 1, 2, 2, 2, 1, 1>,
-        <3, \[ 267, 268 ], \[ 268 ], \[ 268 ], 10, 4, 2, 2, 2, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 57 ], \[ 57 ], \[ 57 ], \[ 57 ], 1, 2, 2, 2, 1, 1>,
+        <3, \[ 267, 268 ], \[ 268 ], \[ 268 ], \[ 267 ], 10, 4, 2, 2, 2, 1>
     ]>,
     <4, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <3, \[ 251, 252, 253, 254 ], \[ 251, 252, 253, 254 ], \[ 254 ], 4, 4, 4,
-        1, 4, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <3, \[ 251, 252, 253, 254 ], \[ 251, 252, 253, 254 ], \[ 254 ], \[ 251 
+        ], 4, 4, 4, 1, 4, 1>
     ]>,
     <33, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 9, 13 ], \[ 9 ], \[], 2, 2, 1, 0, 2, 0>,
-        <2, \[ 68, 70 ], \[], \[], 10, 6, 0, 0, 2, 0>,
-        <3, \[ 132, 139, 140, 141 ], \[ 140 ], \[], 20, 4, 1, 0, 4, 0>,
-        <4, \[ 295 ], \[], \[], 1, 3, 0, 0, 1, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 9, 13 ], \[ 9 ], \[], \[], 2, 2, 1, 0, 2, 0>,
+        <2, \[ 68, 70 ], \[], \[], \[], 10, 6, 0, 0, 2, 0>,
+        <3, \[ 132, 139, 140, 141 ], \[ 140 ], \[], \[], 20, 4, 1, 0, 4, 0>,
+        <4, \[ 295 ], \[], \[], \[], 1, 3, 0, 0, 1, 0>
     ]>,
     <77, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 10, 20 ], \[ 20 ], \[], 6, 2, 1, 0, 2, 0>,
-        <2, \[ 79, 81 ], \[ 81 ], \[], 10, 2, 1, 0, 2, 0>,
-        <3, \[ 143, 149, 153, 154 ], \[ 153 ], \[ 153 ], 60, 4, 1, 1, 4, 1>,
-        <4, \[ 291 ], \[ 291 ], \[ 291 ], 1, 1, 1, 1, 1, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 10, 20 ], \[ 20 ], \[], \[], 6, 2, 1, 0, 2, 0>,
+        <2, \[ 79, 81 ], \[ 81 ], \[], \[], 10, 2, 1, 0, 2, 0>,
+        <3, \[ 143, 149, 153, 154 ], \[ 153 ], \[ 153 ], \[ 149 ], 60, 4, 1, 1, 
+        4, 1>,
+        <4, \[ 291 ], \[ 291 ], \[ 291 ], \[ 291 ], 1, 1, 1, 1, 1, 1>
     ]>,
     <33, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 11, 12 ], \[ 12 ], \[ 12 ], 2, 2, 1, 1, 2, 1>,
-        <2, \[ 71, 80 ], \[], \[], 10, 6, 0, 0, 2, 0>,
-        <3, \[ 131, 137, 138, 158 ], \[ 131 ], \[ 131 ], 20, 4, 1, 1, 4, 1>,
-        <4, \[ 292 ], \[], \[], 1, 3, 0, 0, 1, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 11, 12 ], \[ 12 ], \[ 12 ], \[ 11 ], 2, 2, 1, 1, 2, 1>,
+        <2, \[ 71, 80 ], \[], \[], \[], 10, 6, 0, 0, 2, 0>,
+        <3, \[ 131, 137, 138, 158 ], \[ 131 ], \[ 131 ], \[ 137 ], 20, 4, 1, 1, 
+        4, 1>,
+        <4, \[ 292 ], \[], \[], \[], 1, 3, 0, 0, 1, 0>
     ]>,
     <77, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 17, 23 ], \[ 23 ], \[ 23 ], 6, 2, 1, 1, 2, 1>,
-        <2, \[ 69, 77 ], \[ 69 ], \[ 69 ], 10, 2, 1, 1, 2, 1>,
-        <3, \[ 152, 155, 161, 162 ], \[ 161 ], \[], 60, 4, 1, 0, 4, 0>,
-        <4, \[ 290 ], \[ 290 ], \[], 1, 1, 1, 0, 1, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 17, 23 ], \[ 23 ], \[ 23 ], \[ 17 ], 6, 2, 1, 1, 2, 1>,
+        <2, \[ 69, 77 ], \[ 69 ], \[ 69 ], \[ 77 ], 10, 2, 1, 1, 2, 1>,
+        <3, \[ 152, 155, 161, 162 ], \[ 161 ], \[], \[], 60, 4, 1, 0, 4, 0>,
+        <4, \[ 290 ], \[ 290 ], \[], \[], 1, 1, 1, 0, 1, 0>
     ]>,
     <21, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 22, 24 ], \[], \[], 6, 10, 0, 0, 2, 0>,
-        <2, \[ 66, 67 ], \[ 66 ], \[ 66 ], 2, 2, 1, 1, 2, 1>,
-        <3, \[ 133, 134, 136, 142 ], \[ 142 ], \[ 142 ], 12, 4, 1, 1, 4, 1>,
-        <4, \[ 294 ], \[], \[], 1, 5, 0, 0, 1, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 22, 24 ], \[], \[], \[], 6, 10, 0, 0, 2, 0>,
+        <2, \[ 66, 67 ], \[ 66 ], \[ 66 ], \[ 67 ], 2, 2, 1, 1, 2, 1>,
+        <3, \[ 133, 134, 136, 142 ], \[ 142 ], \[ 142 ], \[ 133 ], 12, 4, 1, 1, 
+        4, 1>,
+        <4, \[ 294 ], \[], \[], \[], 1, 5, 0, 0, 1, 0>
     ]>,
     <77, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 14, 15 ], \[ 15 ], \[], 6, 2, 1, 0, 2, 0>,
-        <2, \[ 72, 73 ], \[ 73 ], \[ 73 ], 10, 2, 1, 1, 2, 1>,
-        <3, \[ 144, 147, 159, 160 ], \[ 144 ], \[], 60, 4, 1, 0, 4, 0>,
-        <4, \[ 293 ], \[ 293 ], \[ 293 ], 1, 1, 1, 1, 1, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 14, 15 ], \[ 15 ], \[], \[], 6, 2, 1, 0, 2, 0>,
+        <2, \[ 72, 73 ], \[ 73 ], \[ 73 ], \[ 72 ], 10, 2, 1, 1, 2, 1>,
+        <3, \[ 144, 147, 159, 160 ], \[ 144 ], \[], \[], 60, 4, 1, 0, 4, 0>,
+        <4, \[ 293 ], \[ 293 ], \[ 293 ], \[ 293 ], 1, 1, 1, 1, 1, 1>
     ]>,
     <77, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 16, 21 ], \[ 21 ], \[], 6, 2, 1, 0, 2, 0>,
-        <2, \[ 74, 75 ], \[ 75 ], \[], 10, 2, 1, 0, 2, 0>,
-        <3, \[ 145, 146, 150, 157 ], \[ 146 ], \[], 60, 4, 1, 0, 4, 0>,
-        <4, \[ 296 ], \[ 296 ], \[], 1, 1, 1, 0, 1, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 16, 21 ], \[ 21 ], \[], \[], 6, 2, 1, 0, 2, 0>,
+        <2, \[ 74, 75 ], \[ 75 ], \[], \[], 10, 2, 1, 0, 2, 0>,
+        <3, \[ 145, 146, 150, 157 ], \[ 146 ], \[], \[], 60, 4, 1, 0, 4, 0>,
+        <4, \[ 296 ], \[ 296 ], \[], \[], 1, 1, 1, 0, 1, 0>
     ]>,
     <77, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 18, 19 ], \[ 18 ], \[ 18 ], 6, 2, 1, 1, 2, 1>,
-        <2, \[ 76, 78 ], \[ 76 ], \[], 10, 2, 1, 0, 2, 0>,
-        <3, \[ 135, 148, 151, 156 ], \[ 148 ], \[], 60, 4, 1, 0, 4, 0>,
-        <4, \[ 297 ], \[ 297 ], \[ 297 ], 1, 1, 1, 1, 1, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 18, 19 ], \[ 18 ], \[ 18 ], \[ 19 ], 6, 2, 1, 1, 2, 1>,
+        <2, \[ 76, 78 ], \[ 76 ], \[], \[], 10, 2, 1, 0, 2, 0>,
+        <3, \[ 135, 148, 151, 156 ], \[ 148 ], \[], \[], 60, 4, 1, 0, 4, 0>,
+        <4, \[ 297 ], \[ 297 ], \[ 297 ], \[ 297 ], 1, 1, 1, 1, 1, 1>
     ]>,
     <7, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <2, \[ 114 ], \[ 114 ], \[ 114 ], 1, 2, 2, 2, 1, 1>,
-        <3, \[ 277, 278 ], \[ 278 ], \[ 278 ], 6, 4, 2, 2, 2, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <2, \[ 114 ], \[ 114 ], \[ 114 ], \[ 114 ], 1, 2, 2, 2, 1, 1>,
+        <3, \[ 277, 278 ], \[ 278 ], \[ 278 ], \[ 277 ], 6, 4, 2, 2, 2, 1>
     ]>,
     <11, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 41 ], \[ 41 ], \[ 41 ], 1, 2, 2, 2, 1, 1>,
-        <3, \[ 209, 212 ], \[ 209 ], \[], 10, 4, 2, 0, 2, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 41 ], \[ 41 ], \[ 41 ], \[ 41 ], 1, 2, 2, 2, 1, 1>,
+        <3, \[ 209, 212 ], \[ 209 ], \[], \[], 10, 4, 2, 0, 2, 0>
     ]>,
     <22, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 42, 46 ], \[ 42, 46 ], \[ 46 ], 2, 2, 2, 1, 2, 1>,
-        <3, \[ 206, 208, 211, 216 ], \[ 206, 216 ], \[ 206 ], 20, 4, 2, 1, 4, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 42, 46 ], \[ 42, 46 ], \[ 46 ], \[ 42 ], 2, 2, 2, 1, 2, 1>,
+        <3, \[ 206, 208, 211, 216 ], \[ 206, 216 ], \[ 206 ], \[ 208 ], 20, 4, 
+        2, 1, 4, 1>
     ]>,
     <22, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 43, 44 ], \[ 43, 44 ], \[], 2, 2, 2, 0, 2, 0>,
-        <3, \[ 203, 214, 217, 218 ], \[ 217, 218 ], \[], 20, 4, 2, 0, 4, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 43, 44 ], \[ 43, 44 ], \[], \[], 2, 2, 2, 0, 2, 0>,
+        <3, \[ 203, 214, 217, 218 ], \[ 217, 218 ], \[], \[], 20, 4, 2, 0, 4, 0>
     ]>,
     <22, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 45, 47 ], \[ 45, 47 ], \[ 47 ], 2, 2, 2, 1, 2, 1>,
-        <3, \[ 207, 210, 213, 215 ], \[ 207, 213 ], \[ 207 ], 20, 4, 2, 1, 4, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 45, 47 ], \[ 45, 47 ], \[ 47 ], \[ 45 ], 2, 2, 2, 1, 2, 1>,
+        <3, \[ 207, 210, 213, 215 ], \[ 207, 213 ], \[ 207 ], \[ 210 ], 20, 4, 
+        2, 1, 4, 1>
     ]>,
     <3, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 48 ], \[], \[], 1, 10, 0, 0, 1, 0>,
-        <3, \[ 204, 205 ], \[ 205 ], \[ 205 ], 2, 4, 2, 2, 2, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 48 ], \[], \[], \[], 1, 10, 0, 0, 1, 0>,
+        <3, \[ 204, 205 ], \[ 205 ], \[ 205 ], \[ 204 ], 2, 4, 2, 2, 2, 1>
     ]>,
     <7, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <2, \[ 100 ], \[ 100 ], \[], 1, 2, 2, 0, 1, 0>,
-        <3, \[ 227, 236 ], \[ 227 ], \[], 6, 4, 2, 0, 2, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <2, \[ 100 ], \[ 100 ], \[], \[], 1, 2, 2, 0, 1, 0>,
+        <3, \[ 227, 236 ], \[ 227 ], \[], \[], 6, 4, 2, 0, 2, 0>
     ]>,
     <14, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <2, \[ 101, 105 ], \[ 101, 105 ], \[ 105 ], 2, 2, 2, 1, 2, 1>,
-        <3, \[ 223, 225, 229, 237 ], \[ 229, 237 ], \[ 229 ], 12, 4, 2, 1, 4, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <2, \[ 101, 105 ], \[ 101, 105 ], \[ 105 ], \[ 101 ], 2, 2, 2, 1, 2, 1>,
+        <3, \[ 223, 225, 229, 237 ], \[ 229, 237 ], \[ 229 ], \[ 223 ], 12, 4, 
+        2, 1, 4, 1>
     ]>,
     <3, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <2, \[ 102 ], \[], \[], 1, 6, 0, 0, 1, 0>,
-        <3, \[ 224, 235 ], \[ 235 ], \[], 2, 4, 2, 0, 2, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <2, \[ 102 ], \[], \[], \[], 1, 6, 0, 0, 1, 0>,
+        <3, \[ 224, 235 ], \[ 235 ], \[], \[], 2, 4, 2, 0, 2, 0>
     ]>,
     <7, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <2, \[ 103 ], \[ 103 ], \[ 103 ], 1, 2, 2, 2, 1, 1>,
-        <3, \[ 228, 232 ], \[ 232 ], \[], 6, 4, 2, 0, 2, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <2, \[ 103 ], \[ 103 ], \[ 103 ], \[ 103 ], 1, 2, 2, 2, 1, 1>,
+        <3, \[ 228, 232 ], \[ 232 ], \[], \[], 6, 4, 2, 0, 2, 0>
     ]>,
     <14, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <2, \[ 104, 106 ], \[ 104, 106 ], \[ 106 ], 2, 2, 2, 1, 2, 1>,
-        <3, \[ 226, 230, 231, 233 ], \[ 230, 233 ], \[ 233 ], 12, 4, 2, 1, 4, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <2, \[ 104, 106 ], \[ 104, 106 ], \[ 106 ], \[ 104 ], 2, 2, 2, 1, 2, 1>,
+        <3, \[ 226, 230, 231, 233 ], \[ 230, 233 ], \[ 233 ], \[ 226 ], 12, 4, 
+        2, 1, 4, 1>
     ]>,
     <3, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <2, \[ 107 ], \[], \[], 1, 6, 0, 0, 1, 0>,
-        <3, \[ 234, 238 ], \[ 238 ], \[ 238 ], 2, 4, 2, 2, 2, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <2, \[ 107 ], \[], \[], \[], 1, 6, 0, 0, 1, 0>,
+        <3, \[ 234, 238 ], \[ 238 ], \[ 238 ], \[ 234 ], 2, 4, 2, 2, 2, 1>
     ]>,
     <21, true, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 1, 5 ], \[], \[], 6, 10, 0, 0, 2, 0>,
-        <2, \[ 60, 61 ], \[ 61 ], \[ 61 ], 2, 2, 1, 1, 2, 1>,
-        <3, \[ 116, 119, 120, 122 ], \[ 119 ], \[], 12, 4, 1, 0, 4, 0>,
-        <4, \[ 286 ], \[], \[], 1, 5, 0, 0, 1, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 1, 5 ], \[], \[], \[], 6, 10, 0, 0, 2, 0>,
+        <2, \[ 60, 61 ], \[ 61 ], \[ 61 ], \[ 60 ], 2, 2, 1, 1, 2, 1>,
+        <3, \[ 116, 119, 120, 122 ], \[ 119 ], \[], \[], 12, 4, 1, 0, 4, 0>,
+        <4, \[ 286 ], \[], \[], \[], 1, 5, 0, 0, 1, 0>
     ]>,
     <33, true, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 2, 8 ], \[ 2 ], \[ 2 ], 2, 2, 1, 1, 2, 1>,
-        <2, \[ 64, 65 ], \[], \[], 10, 6, 0, 0, 2, 0>,
-        <3, \[ 121, 123, 124, 130 ], \[ 121 ], \[], 20, 4, 1, 0, 4, 0>,
-        <4, \[ 288 ], \[], \[], 1, 3, 0, 0, 1, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 2, 8 ], \[ 2 ], \[ 2 ], \[ 8 ], 2, 2, 1, 1, 2, 1>,
+        <2, \[ 64, 65 ], \[], \[], \[], 10, 6, 0, 0, 2, 0>,
+        <3, \[ 121, 123, 124, 130 ], \[ 121 ], \[], \[], 20, 4, 1, 0, 4, 0>,
+        <4, \[ 288 ], \[], \[], \[], 1, 3, 0, 0, 1, 0>
     ]>,
     <9, true, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 3, 7 ], \[], \[], 2, 10, 0, 0, 2, 0>,
-        <2, \[ 59, 63 ], \[], \[], 2, 6, 0, 0, 2, 0>,
-        <3, \[ 115, 117, 118, 125 ], \[ 115 ], \[ 115 ], 4, 4, 1, 1, 4, 1>,
-        <4, \[ 287 ], \[], \[], 1, 15, 0, 0, 1, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 3, 7 ], \[], \[], \[], 2, 10, 0, 0, 2, 0>,
+        <2, \[ 59, 63 ], \[], \[], \[], 2, 6, 0, 0, 2, 0>,
+        <3, \[ 115, 117, 118, 125 ], \[ 115 ], \[ 115 ], \[ 117 ], 4, 4, 1, 1, 
+        4, 1>,
+        <4, \[ 287 ], \[], \[], \[], 1, 15, 0, 0, 1, 0>
     ]>,
     <77, true, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <1, \[ 4, 6 ], \[ 6 ], \[], 6, 2, 1, 0, 2, 0>,
-        <2, \[ 58, 62 ], \[ 58 ], \[], 10, 2, 1, 0, 2, 0>,
-        <3, \[ 126, 127, 128, 129 ], \[ 129 ], \[], 60, 4, 1, 0, 4, 0>,
-        <4, \[ 289 ], \[ 289 ], \[ 289 ], 1, 1, 1, 1, 1, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <1, \[ 4, 6 ], \[ 6 ], \[], \[], 6, 2, 1, 0, 2, 0>,
+        <2, \[ 58, 62 ], \[ 58 ], \[], \[], 10, 2, 1, 0, 2, 0>,
+        <3, \[ 126, 127, 128, 129 ], \[ 129 ], \[], \[], 60, 4, 1, 0, 4, 0>,
+        <4, \[ 289 ], \[ 289 ], \[ 289 ], \[ 289 ], 1, 1, 1, 1, 1, 1>
     ]>,
     <1, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <3, \[ 285 ], \[ 285 ], \[ 285 ], 1, 4, 4, 4, 1, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <3, \[ 285 ], \[ 285 ], \[ 285 ], \[ 285 ], 1, 4, 4, 4, 1, 1>
     ]>,
     <6, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <2, \[ 94, 97 ], \[], \[], 2, 6, 0, 0, 2, 0>,
-        <3, \[ 198, 200, 201, 202 ], \[ 198, 202 ], \[ 202 ], 4, 4, 2, 1, 4, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <2, \[ 94, 97 ], \[], \[], \[], 2, 6, 0, 0, 2, 0>,
+        <3, \[ 198, 200, 201, 202 ], \[ 198, 202 ], \[ 202 ], \[ 201 ], 4, 4, 2,
+        1, 4, 1>
     ]>,
     <14, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <2, \[ 95, 96 ], \[ 95, 96 ], \[ 96 ], 2, 2, 2, 1, 2, 1>,
-        <3, \[ 195, 196, 197, 199 ], \[ 196, 199 ], \[], 12, 4, 2, 0, 4, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <2, \[ 95, 96 ], \[ 95, 96 ], \[ 96 ], \[ 95 ], 2, 2, 2, 1, 2, 1>,
+        <3, \[ 195, 196, 197, 199 ], \[ 196, 199 ], \[], \[], 12, 4, 2, 0, 4, 0>
     ]>,
     <2, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <3, \[ 279, 284 ], \[ 279, 284 ], \[ 284 ], 2, 4, 4, 2, 2, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <3, \[ 279, 284 ], \[ 279, 284 ], \[ 284 ], \[ 279 ], 2, 4, 4, 2, 2, 1>
     ]>,
     <1, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <3, \[ 280 ], \[ 280 ], \[ 280 ], 1, 4, 4, 4, 1, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <3, \[ 280 ], \[ 280 ], \[ 280 ], \[ 280 ], 1, 4, 4, 4, 1, 1>
     ]>,
     <1, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <3, \[ 281 ], \[ 281 ], \[], 1, 4, 4, 0, 1, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <3, \[ 281 ], \[ 281 ], \[], \[], 1, 4, 4, 0, 1, 0>
     ]>,
     <2, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <3, \[ 282, 283 ], \[ 282, 283 ], \[ 282 ], 2, 4, 4, 2, 2, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <3, \[ 282, 283 ], \[ 282, 283 ], \[ 282 ], \[ 283 ], 2, 4, 4, 2, 2, 1>
     ]>,
     <2, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <3, \[ 269, 274 ], \[ 269, 274 ], \[], 2, 4, 4, 0, 2, 0>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <3, \[ 269, 274 ], \[ 269, 274 ], \[], \[], 2, 4, 4, 0, 2, 0>
     ]>,
     <2, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <3, \[ 270, 272 ], \[ 270, 272 ], \[ 272 ], 2, 4, 4, 2, 2, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <3, \[ 270, 272 ], \[ 270, 272 ], \[ 272 ], \[ 270 ], 2, 4, 4, 2, 2, 1>
     ]>,
     <2, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <3, \[ 271, 275 ], \[ 271, 275 ], \[ 271 ], 2, 4, 4, 2, 2, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <3, \[ 271, 275 ], \[ 271, 275 ], \[ 271 ], \[ 275 ], 2, 4, 4, 2, 2, 1>
     ]>,
     <2, false, [ car<IntegerRing(), PowerSequence(IntegerRing()), 
         PowerSequence(IntegerRing()), PowerSequence(IntegerRing()), 
-        IntegerRing(), RationalField(), RationalField(), RationalField(), 
-        IntegerRing(), IntegerRing()> |
-        <3, \[ 273, 276 ], \[ 273, 276 ], \[ 273 ], 2, 4, 4, 2, 2, 1>
+        PowerSequence(IntegerRing()), IntegerRing(), RationalField(), 
+        RationalField(), RationalField(), IntegerRing(), IntegerRing()> |
+        <3, \[ 273, 276 ], \[ 273, 276 ], \[ 273 ], \[ 273 ], 2, 4, 4, 2, 2, 1>
     ]>
 ]
