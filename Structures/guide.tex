@@ -5,8 +5,7 @@
 \usepackage{enumitem}
 \usepackage{parskip}
 
-\title{\textbf{Constructing Hopf--Galois structures and skew bracoids of small d
-egree}\\[0.5em]
+\title{\textbf{Constructing Hopf--Galois structures and skew bracoids of small degree}\\[0.5em]
 \large Classification of structures algorithm --- guide to use}
 \author{Andrew Darlington \and E.A.\ O'Brien}
 \date{Last revised March 2026}
@@ -56,7 +55,7 @@ NumAll (n);
 \end{verbatim}
 
 The main results are stored in \texttt{results/Results-n}. The corresponding list of transitive subgroups is stored in \texttt{results/transgrps/Grps-n}.
-The format is identical to that for the material stored in {\tt computed-data}.
+The format is identical to that for the material stored in {\tt computed-data}. \textbf{Please note} that separate runs may produce a differently ordered list of transitive groups, so the corresponding identifiers in {\tt Results-n} may vary.
 
 \subsection*{3. Running over a range}
 
@@ -81,6 +80,7 @@ To process degree {\tt n}, run {\tt NumAll(n)}. It returns
 the structure data for degree $n$ and the complete list 
 of transitive subgroups of $\mathrm{Hol}(N)$ for all groups $N$ of order $n$.
 The format is identical to that for the material stored in {\tt computed-data}.
+
 
 
 \end{document}

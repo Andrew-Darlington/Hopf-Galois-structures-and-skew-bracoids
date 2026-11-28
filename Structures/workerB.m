@@ -84,7 +84,8 @@ end function;
 TransGroup := function (params)
    G,_,N,hol,i,id:=Explode(params);
    n:=#N;
-
+   
+   isACBoid := N subset G;
    CN := Centraliser (Sym (n), N);
  
    intfields := #IntermediateSubgroups (G, Stabiliser (G, 1)) + 2;
@@ -97,9 +98,9 @@ TransGroup := function (params)
    if G`Order eq n then
      if intfields eq subGst then
        isAC := CN subset G;
-       props:=<true,true,isAC>; 
+       props:=<true,true,isAC,isACBoid>; 
      else
-       props:=<true,false,false>;
+       props:=<true,false,false,isACBoid>;
      end if;
 	stabs:={@ [] @};
 	ordaut:=#AutomorphismGroup(G);
@@ -107,9 +108,9 @@ TransGroup := function (params)
       numaut,stab := NumOfAutomorphisms (G);
       if intfields eq subGst then
         isAC := CN subset G;
-        props:=<false,true,isAC>; 
+        props:=<false,true,isAC,isACBoid>; 
       else
-        props:=<false,false,false>;
+        props:=<false,false,false,isACBoid>;
      end if;
 	stabs:=stab;
 	ordaut:= numaut;
@@ -117,7 +118,7 @@ TransGroup := function (params)
      return [*id, stabs, ordaut, props*];
 end function;
  
-host := "host.name";// needs to be same as for manager
+host := "andrew-HP-ProBook-440-G7";// needs to be same as for manager
 port := 10200;
 DistributedWorker (host, port, TransGroup);
 quit;

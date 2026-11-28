@@ -13,7 +13,8 @@ NumOfType := function (params)
          hgsac := 0;
          totgrps := 0;
          grps:=[];
-         grpsAC:=[];
+         grpsACHGS:=[];
+         grpsACBoid:=[];
          grpsBC:=[];
          while j le oEC and EquivClass[j][1] eq i do
             EC:=EquivClass[j];
@@ -28,9 +29,12 @@ NumOfType := function (params)
                Append(~grpsBC,grp);
                if props[3] then
                   hgsac := hgsac + s;
-                   Append(~grpsAC,grp);
+                   Append(~grpsACHGS,grp);
                end if;
             end if;
+            if props[4] then
+                  Append(~grpsACBoid,grp);
+               end if;
             j := j+1;
          end while;
          EC:=EquivClass[j-1];
@@ -40,14 +44,14 @@ NumOfType := function (params)
          hgsac := hgsac*factor;
          hgsbc := hgsbc*factor;
          sbtot := #grps;
-         sbac := #grpsAC;
-         Append (~HGS_Sbracoid_list,<i,grps,grpsBC,grpsAC,totgrps,hgstot,hgsbc,hgsac,sbtot,sbac>);
+         sbac := #grpsACBoid;
+         Append (~HGS_Sbracoid_list,<i,grps,grpsBC,grpsACHGS,grpsACBoid,totgrps,hgstot,hgsbc,hgsac,sbtot,sbac>);
       end if;
    end for;
    return <size,EquivClass[j-1][4][1],HGS_Sbracoid_list>;
 end function;
  
-host := "host.name";// needs to be same as for manager
+host := "andrew-HP-ProBook-440-G7";// needs to be same as for manager
 port := 10600;
 DistributedWorker (host, port, NumOfType);
 quit;
